@@ -15,12 +15,16 @@
 % on the last page of the document
 
 % The following packages can be found on http:\\www.ctan.org
-%\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{graphics} % for pdf, bitmapped graphics files
 %\usepackage{epsfig} % for postscript graphics files
 %\usepackage{mathptmx} % assumes new font selection scheme installed
 %\usepackage{times} % assumes new font selection scheme installed
-%\usepackage{amsmath} % assumes amsmath package installed
-%\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage[small,normal,bf,up]{caption}
+\include{defs}
 
 \title{\LARGE \bf
 Non-Field-Of-View Sound Source Localization based on Reflection and Refraction
@@ -50,13 +54,182 @@ Non-Field-Of-View Sound Source Localization based on Reflection and Refraction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
+\section{NFOV }
+	\subsubsection{Hybrid Visual/Auditory Recursive Bayesian Estimation}
 
-\section{}
+The proposed approach is mathematically described as follows.  The SLAM technique to be used in the project is a scan-based SLAM which incorporates the grid-based scan-to-map matching technique proposed by the authors.  This technique could be claimed as the most effective approach for this class of SLAM problems with further engagement, but the work will not be one of the major contributions in the proposal since this project is concerned only with the use of SLAM at a concept level.  Let the state of the robot $s$ and the map updated at time step $k$ be $\mVxbp{k}{s} \in \Cal{X}^s$ and $\mVmb{k} \in \Cal{M}_k$ respectively and start the mathematical formulation of the proposed approach.  Consider a target $t$, the state of which is given by $\Vxbp{k}{t} \in \Cal{X}^t$, and a sequence of observations of the target $t$ by the robot $s$ from time step $1$ to time step $k$ given by $\ptVzbp{s}{1:k}{t} \equiv \bm{\ptVzbp{s}{\kappa}{t}|\forall \kappa \in \bm{1,...,k}}$.  The RBE represents belief on the target in the form of a probability density function and iteratively updates the belief in time and observation.  Let the belief given a sequence of observations and the robot state and the map estimated by SLAM at time step $k-1$ be  $\p{\Vxbp{k-1}{t}|\ptVzbp{s}{1:k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}}$.  Chapman-Kolmogrov equation updates the prior belief in time, or predicts the belief at time step $k$, by the probabilistic motion model $\p{\Vxbp{k}{t}|\Vxbp{k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}}$: 
+\begin{equation}\label{eq:predictT}
+\p{\Vxbp{k}{t}|\ptVzbp{s}{1:k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}} = \int_{\Cal{X}^t} \p{\Vxbp{k}{t}|\Vxbp{k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}} \p{\Vxbp{k-1}{t}|\ptVzbp{s}{1:k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}} d\Vxbp{k-1}{t}.
+\end{equation}
+Note that the motion model is $\p{\Vxbp{k}{t}|\Vxbp{k-1}{t},\mVmb{k-1}}$ if the target is not reactive to the robot.  The observation update, or the correction process, is performed using the Bayes theorem.  The target belief is corrected using the new observation $\ptVzbp{s}{k}{t}$ as
+\begin{eqnarray}\label{eq:correctT}
+\p{\Vxbp{k}{t}|\ptVzbp{s}{1:k}{t},\mVxbp{k}{s},\mVmb{k}} = \frac{\f{q}{\Vxbp{k}{t}|\ptVzbp{s}{1:k}{t},\mVxbp{k-1:k}{s},\mVmb{k-1:k}}} {\int_{\Cal{X}^t}
+	\f{q}{\Vxbp{k}{t}|\ptVzbp{s}{1:k}{t},\mVxbp{k-1:k}{s},\mVmb{k-1:k}} d\Vxbp{k}{t}},
+\end{eqnarray}
+where $\f{q}{\cdot} = {\li{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} \p{\Vxbp{k}{t}|\ptVzbp{s}{1:k-1}{t},\mVxbp{k-1}{s},\mVmb{k-1}}}$, and $\li{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}}$ represents the observation likelihood of $\Vxbp{k}{t}$ given $\ptVzbp{s}{k}{t}$, $\mVxbp{k}{s}$ and $\mVmb{k}$.  
+
+One of the core technologies proposed in this project is the dual use of visual and auditory sensors.  Most generically, it is given by
+\begin{equation}\label{eq:joint}
+\li{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} = \prod_i \lio{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} \prod_j \lia{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} 
+\end{equation}
+where $\lio{\cdot}$ and $\lia{\cdot}$ are the likelihoods of $i$th camera and $j$th acoustic sensor.  In order to maximize information, the camera observation is used not only to detect a target if it is in the FOV but also to construct the no-detection likelihood if the target is not detected in the field of view:  
+\begin{equation}\label{eq:unif_sensor_model}
+\lio{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} = \left\{
+\begin{array}{ll}
+\p{\ptVzbp{s}{k}{t}|\Vxbp{k}{t},\mVxbp{k}{s},\mVmb{k}} & \exists \ptVzbp{s}{k}{t} \in {}^{s_i}\Cal{X}_{FOV}^{t} \\
+1 -  P_d\bs{\Vxbp{k}{t}|\mVxbp{k}{s}} & \nexists \ptVzbp{s}{k}{t} \in {}^{s_i}\Cal{X}_{FOV}^{t},
+\end{array}
+\right.
+\end{equation}
+where ${}^{s_i}\Cal{X}_{FOV}^{t}$ is the FOV of the $i$th camera.  The effectiveness of Equation (\ref{eq:unif_sensor_model}) is thoroughly investigated by the PI in the context of autonomous search and tracking.  
 
 
-$$
-\alpha + \beta = \chi \eqno{(1)}
-$$
+%\begin{figure}[ht]
+%	\centering
+%	\subfigure[Joint visual/acoustic observation likelihood]{
+%		\centering
+%		\label{fig:joint}
+%		\includegraphics[height=60mm]{Figures/joint.png}
+%	}
+%	\subfigure[RBE incorporating an acoustic sensor]{
+%		\centering
+%		\label{fig:posterior}
+%		\includegraphics[height=60mm]{Figures/posterior.png}
+%	}
+%	\caption{Hybrid visual/auditory target estimation}
+%	\label{fig:hybrid}
+%\end{figure}
+
+%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%\begin{wrapfigure}{r}{0.50\textwidth}
+%	{\centering
+%		\includegraphics[height=0.40\textwidth]{Figures/auditory_procedure.png}
+%	}
+%	\caption{\footnotesize {Construction of auditory NFOV target likelihood} }
+%	\label{fig:auditory_procedure}
+%\end{wrapfigure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+While the derivation of $\lia{\cdot}$ is most challenging and thus will be dealt with separately in the next section, the advantage of Equation (\ref{eq:joint}) in RBE is illustratively shown in Figure \ref{fig:hybrid}.  The possible locations of the target are narrowed down even though the no-detection likelihood is used in visual sensing since the likelihood clears out the joint likelihood in the FOV and dropped some peak(s) as shown in Figure \ref{fig:joint}. Because sharpest and most Gaussian is the visual observation likelihood with detection, the prior belief is most determined by the last visual observation and remains a sharp Gaussian distribution as shown in Figure~\ref{fig:posterior}.  The posterior belief with the joint observation likelihood inherits this characteristics since the joint likelihood most likely captures the target location with a peak and magnifies the confidence of the prior belief with the joint likelihood.  
+
+
+\subsubsection{Construction of Auditory NFOV Target Observation Likelihood}
+
+\noindent {\bf Overview}: Unlike the conventional techniques, the proposed approach 
+\begin{itemize}
+	\item Is not based on the LOS assumption and actively utilizes the physics of sound wave propagation associated with NFOV targets; 
+	\item Does not need information such as the time of sound emission and power to be informed by the target;
+	\item Does not need to collect acoustic cues in advance. 
+\end{itemize}
+
+Figure~\ref{fig:auditory_procedure} shows the overview of the approach proposed for constructing a NFOV target observation likelihood using an auditory sensor.  The core of the proposed approach is to extract the first-arrival diffraction and reflection signals by taking the physics of sound wave propagation into account.  Unlike radio signals, sound signals reflect significantly without penetrating into different media while they also diffract at low frequencies \cite{bellusci2007ultra}.  The proposed approach begins with obtaining a time-domain signal of a relatively impulsive sound at each microphone.  In each curve, notable peaks are then extracted as candidate first-arrival diffraction and reflection signals.  When each candidate signal is described in the frequency domain, the first-arrival diffraction and reflection signals can be identified since they are the first signals that are correlated in low frequency range.  The diffraction signal is then used to identify the so-called diffraction point by deriving the Time-Difference-Of-Arrival (TDOA) for each pair of microphones and further estimate the direction of target sound beyond the diffraction point from the loss of sound energy through diffraction, or the diffraction loss.  An observation likelihood is eventually constructed by additionally estimating the distance from the sound magnitude and characteristics.  The reflection signal estimates the target direction directly from the TDOA by mirroring and creating a virtual target.  It also creates an observation likelihood with distance estimate by considering sound magnitude and characteristics and environmental properties.  A joint observation likelihood is finally created by the fusion of the diffraction and reflection observation likelihoods.  
+
+%\begin{figure}[ht]
+%	\centering
+%	\subfigure[Acoustic signals from NFOV target]{
+%		\centering
+%		\label{fig:NFOV_acoustic}
+%		\includegraphics[height=60mm]{Figures/NFOV_acoustic.png}
+%	}
+%	\subfigure[Diffracted and reflected signals]{
+%		\centering
+%		\label{fig:sound_extraction}
+%		\includegraphics[height=50mm]{Figures/sound_extraction.png}
+%	}
+%	\caption{Auditory NFOV target observation}
+%	\label{fig:auditory_approach}
+%\end{figure}
+
+The proposed approach infers the location of the sound target using both the first-arrival diffracted and reflected sound signals.  The next subsection describes the extraction of the first-arrival diffraction and reflection signals, followed by the target estimation using the diffracted and reflected signals in the subsequent two subsections.  The final goal of this project is to develop a probabilistic RBE based framework, but the preliminary study has succeeded in the proof-of-concept in deterministic formulations.  The two subsections will present the deterministic NFOV target estimation using diffraction and reflection sound waves.  The final subsection derives the joint observation likelihood as a result of data fusion.  
+
+\section{Extraction of First-arrival Diffraction and Reflection Signals} 
+Figure~\ref{fig:auditory_approach} shows the extraction process of the diffraction and reflection signals proposed in this project illustratively in one of the simplest scenarios where a robot carrying two microphones receives sound emitted by a target in the NFOV in a two-dimensional indoor environment with three walls (Figure~\ref{fig:NFOV_acoustic}).  As shown in the figure, sound waves emitted from the target reach the robot first through diffraction and second through reflection and, if the sound is relatively impulsive, the first-arrival diffraction and reflection signals can be extracted clearly.  Extraction becomes challenging for complex environments, but various existing techniques proposed to extract signals or select thresholds for extraction reportedly achieve successful extraction and identify candidate diffraction and reflection signals \cite{lee2006large,irahhauten2006investigation,xu2008delay,Guvenc2009}.  Figure~\ref{fig:sound_extraction} shows not only the sound pressure of sound in the time domain, $P_i\bs{t}$, but also the magnitude of the resulting first-arrival diffraction and reflection signals in the frequency domain, $M_i^d\bs{\omega}$ and $M_i^r\bs{\omega}$, where $i \in \bm{1,2}$ is the index of microphone.  Note that the magnitude is scaled to examine correlation.  Signals are considered from the same sound source if they share the same characteristics in low frequency because low-frequency signals reflect and diffract.  The proposed approach thus select the first set of signals that have the same low-frequency characteristics but are dissimilar in high frequency as the first-arrival diffraction and reflection signals of all the candidate signals.  Diffraction signals have little high-frequency components whilst reflection signals see components in all frequencies.  Needless to say, each of Microphones 1 and 2 constructs a different data set.  
+
+\begin{figure}[h!]
+  \caption{A picture of a gull.}
+  \centering
+		\includegraphics[height=50mm]{Figures/diffraction1}
+\end{figure}
+%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%\begin{figure}[ht]
+%	\centering
+%	\subfigure[Proposed approach]{
+%		\centering
+%		\label{fig:diffraction1}
+%		\includegraphics[height=50mm]{Figures/diffraction1.png}
+%	}
+%	\subfigure[Magnitude with different orientation angles \cite{medwin1981shadowing}]{
+%		\centering
+%		\label{fig:diffraction2}
+%		\includegraphics[height=50mm]{Figures/diffraction.png}
+%	}
+%	\caption{\footnotesize {Estimation of sound direction from diffraction signals} }
+%	\label{fig:diffraction}
+%\end{figure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+\noindent {\bf Estimation of Sound Direction from Diffraction Signals}: Figure~\ref{fig:diffraction1} shows the notations used for target estimation from diffraction signals in the scenario introduced in the last subsection.  Since the diffraction sound Microphones 1 and 2 receive is originated from the LOS location at which the sound diffracts, the proposed approach starts target estimation from diffraction signals with the selection of diffraction point from all candidates, which are corners of all structures.  The measured quantity used for the selection is the TDOA, $\Delta t_d = t_{d2} - t_{d1}$, where $t_{d1}$ and $t_{d2}$ are the Times-of-Arrival (TOAs) at Microphones 1 and 2 respectively.  The diffraction point can be easily found from candidates as it satisfies the following equation:  
+\begin{equation}\label{eq:TDOA1}
+\bs{x^d}^2 + \bs{x^d}^2 = \bs{c \Delta t_d + r}^2.  
+\end{equation}
+where $\bl{x^d, y^d}$ is the location of a candidate diffraction point, $c$ is the speed of sound and $r$ is a shorter distance between a microphone and the candidate diffraction point.  
+With the diffraction point identified, the proposed approach further identifies the direction of the sound target from the diffraction point by analyzing the magnitudes of diffraction and reflection sounds $M_i^d\bs{\omega}$ and $M_i^r\bs{\omega}$.  The loss of high-frequency signal components is assumed to be less with a microphone closer to LOS (Microphone 2 in this case) as there is no loss with a microphone on the LOS to the sound target.  This assumption, in fact, has been found to be valid by the work of Medwin a quarter-century ago \cite{medwin1981shadowing} shown in Figure~\ref{fig:diffraction2}.  The magnitude of diffraction sound drops when the ``degree of NLOS'' represented by the orientation angle is increased.   This makes the proposed approach define the diffraction loss as
+\begin{equation}\label{eq:loss}
+L_i = \int \bl{M_i^r\bs{\omega} - M_i^d\bs{\omega}} {\rm d} \omega \geq 0, \forall i \in \bm{1,2}  
+\end{equation}
+and associate it with the degree of NLOS.  The work of Medwin also shows that the diffraction loss is approximately proportional to the degree of NLOS.  The sound direction from the diffraction point is given by
+\begin{equation}\label{eq:direction_diffraction}
+\theta_d = \theta_1 + \frac{\theta_2 - \theta_1}{L_1 - L_2} L_1.   
+\end{equation}
+\noindent {\bf Estimation of Sound Direction from Reflection Signals}: Figure~\ref{fig:reflection} shows the proposed approach for estimation of sound direction from reflection signals.  Reflection makes the sound propagation and the subsequent target estimation complicated, but if the wall is smooth and yields specular reflection, the sound direction can be estimated easily by introducing a virtual target \cite{pulkki1997}, which is located symmetrically to the real target relative to the wall of reflection.  Let the position of the virtual target be $\bl{\hat x^t, \hat y^2}$.  The measured TDOA can be associated with the position of the virtual target as\\
+%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%\begin{wrapfigure}{r}{0.35\textwidth}
+%	{\centering
+%		\includegraphics[width=0.35\textwidth]{Figures/reflection.png}
+%	}
+%	\caption{\footnotesize {Estimation of sound direction from reflection signals by proposed approach} }
+%	\label{fig:reflection}
+%\end{wrapfigure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+\begin{equation}\label{eq:reflection}
+\left\{
+\begin{array}{ll}
+\bs{\hat x^t}^2 + \bs{\hat y^t}^2 = \bs{r + c \Delta t_d}^2\\
+\bl{\bs{\hat x^t}^2 - d_{12}}^2 + \bs{\hat y^t}^2 = r^2
+\end{array},
+\right.
+\end{equation}
+where $d_{12}$ is a distance between Microphones 1 and 2.  Since $r$ is unknown unlike the diffraction, the two equations with three unknowns, $\hat x^t$, $\hat y^t$ and $r$, introduce the relationship between $\hat x^t$ and $\hat y^t$ through the elimination of $r$.  Derivation attempted as a preliminary study for this project yields the relationship as
+\begin{equation}\label{eq:estimation_reflection}
+\bs{\hat y^t}^2 = \bs{\frac{d_{12}^2}{c^2 \Delta t^2} - 1} \bs{\hat x^t}^2 - d_{12} \bs{\frac{d_{12}^2}{c^2 \Delta t^2} - 1} \hat x^t + \bl{\frac{\bs{d_{12}^2 + c^2 \Delta t_d^2}}{4 c^2 \Delta t^2} - d_{12}^2}.  
+\end{equation}
+The further mathematical manipulation shows that this equation asymptotically yields the sound direction as 
+\begin{equation}\label{eq:dirction_reflection}
+\theta_r = \pi - \hat \theta_r = \lim_{r \rightarrow \infty} \tan^{-1} \frac{\hat y^t}{\hat x^t}= \cos^{-1} \frac{c \Delta t_d}{d_{12}}.   
+\end{equation}
+%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%\begin{wrapfigure}{r}{0.35\textwidth}
+%	{\centering
+%		\includegraphics[width=0.30\textwidth]{Figures/data_fusion.png}
+%	}
+%	\caption{\footnotesize {Construction of joint observation likelihood through data fusion} }
+%	\label{fig:data_fusion}
+%\end{wrapfigure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
+\noindent {\bf Construction of Joint Observation Likelihood through Data Fusion}: 
+While the sound can be better identified in direction rather than distance, it is also possible to make an estimate on how far the sound target is.  The proposed approach makes the estimate by utilizing any available information including the magnitude, sound patterns stored in a database, or sound characteristics in a knowledge base and constructs an observation likelihood for each of the diffraction and reflection signals by modeling uncertainties.  For the $j$th pair of microphones, the diffraction and reflection likelihoods are then combined to create an auditory joint observation likelihood via the canonical data fusion formula: 
+\begin{equation}\label{eq:joint_auditory}
+\lia{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} = \lid{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} \lir{\Vxbp{k}{t}|\ptVzbp{s}{k}{t},\mVxbp{k}{s},\mVmb{k}} 
+\end{equation}
+where $\lid{\cdot}$ and $\lir{\cdot}$ are the diffraction and reflection observation likelihood.  
+Figure~\ref{fig:data_fusion} illustrates the diffraction and reflection observation likelihoods as well as the joint observation likelihood where the observation likelihood is represented by an ellipsoid indicating a probability distribution with a covariance.  The diffraction and reflection likelihoods are shown to have high eccentricity due to more accuracy in direction than in distance.  Since the difference of the diffraction and reflection likelihoods in orientation may not be significant, the resulting auditory joint likelihood could also given by an ellipsoid with high eccentricity, but the proposed approach, utilizing the diffraction and reflection physics of sound, could estimate the location of the sound target.  
+%=================================================================
+%%%%%%%%%%% begin figure %%%%%%%%%%%%%%%%%%%
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=0.70\textwidth]{Figures/schedule.png}
+%	\caption{\footnotesize {Schedule of the project} }
+%	\label{fig:schedule}
+%\end{figure}
+%%%%%%%%%%%%%%%% end figure %%%%%%%%%%%%%%%%%%%
 %
 %\begin{table}[h]
 %\caption{An Example of a Table}
@@ -83,36 +256,18 @@ $$
 %      \label{figurelabel}
 %   \end{figure}
 %   
-
 \section{CONCLUSIONS}
-
-
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
                                   % on the last page of the document manually. It shortens
                                   % the textheight of the last page by a suitable amount.
                                   % This command does not take effect until the next page
                                   % so it should come on the page before the last. Make
                                   % sure that you do not shorten the textheight too much.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{APPENDIX}
-
 Appendixes should appear before the acknowledgment.
-
 %\section*{ACKNOWLEDGMENT}
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \end{document}

@@ -1,0 +1,239 @@
+\newcommand{\V}[1] {\mathbf{#1}}
+\newcommand{\Vx}[0] {\mathbf{x}}
+\newcommand{\Vy}[0] {\mathbf{y}}
+\newcommand{\Vz}[0] {\mathbf{z}}
+\newcommand{\Vu}[0] {\mathbf{u}}
+\newcommand{\Vv}[0] {\mathbf{v}}
+\newcommand{\Vw}[0] {\mathbf{w}}
+\newcommand{\Vm}[0] {\mathbf{m}}
+
+\newcommand{\Vb}[2] {\V{#1}_{#2}}
+\newcommand{\Vxb}[1] {\Vx_{#1}}
+\newcommand{\Vzb}[1] {\Vz_{#1}}
+\newcommand{\Vxp}[1] {\Vx^{#1}}
+
+\newcommand{\Vbp}[3] {\V{#1}_{#2}^{#3}}
+\newcommand{\Vxbp}[2] {\Vx_{#1}^{#2}}
+\newcommand{\Vzbp}[2] {\Vz_{#1}^{#2}}
+\newcommand{\Vubp}[2] {\Vu_{#1}^{#2}}
+\newcommand{\Vvbp}[2] {\Vv_{#1}^{#2}}
+\newcommand{\Vwbp}[2] {\Vw_{#1}^{#2}}
+\newcommand{\VSbp}[2] {\V{\Sigma}_{#1}^{#2}}
+\newcommand{\dVxbp}[2] {\dot{\Vxbp{#1}{#2}}}
+
+\newcommand{\pVbp}[4] {{}^{#1}\V{#2}_{#3}^{#4}}
+\newcommand{\pVzb}[2] {{}^{#1}\Vz_{#2}}
+\newcommand{\pVxbp}[3] {{}^{#1}\Vx_{#2}^{#3}}
+\newcommand{\pVvbp}[3] {{}^{#1}\Vv_{#2}^{#3}}
+\newcommand{\pVzbp}[3] {{}^{#1}\Vz_{#2}^{#3}}
+\newcommand{\ptVzbp}[3] {{}^{#1}\tilde \Vz_{#2}^{#3}}
+\newcommand{\ptVzb}[2] {{}^{#1}\tilde\Vz_{#2}}
+\newcommand{\tVxp}[1] {\tilde \Vx^{#1}}
+\newcommand{\tVxbp}[2] {\tilde \Vx_{#1}^{#2}}
+\newcommand{\tVzbp}[2] {\tilde \Vz_{#1}^{#2}}
+\newcommand{\tVubp}[2] {\tilde \Vu_{#1}^{#2}}
+\newcommand{\tVzb}[1] {\tilde \Vz_{#1}}
+\newcommand{\mVxbp}[2] {\bar \Vx_{#1}^{#2}}
+\newcommand{\mVmb}[1] {\bar \Vm_{#1}}
+\newcommand{\pmVxbp}[3] {{}^{#1}\bar \Vx_{#2}^{#3}}
+\newcommand{\bpVp}[4] {{}_{#1}^{#2}\V{#3}^{#4}}
+
+\newcommand{\Sz}[0] {z}
+\newcommand{\tSzbp}[2] {\tilde \Sz_{#1}^{#2}}
+\newcommand{\ptSzbp}[3] {{}^{#1}\tilde \Sz_{#2}^{#3}}
+
+\newcommand{\sbram}[1] {\left \{ #1 \right .}
+\newcommand{\vm}[2] {\bl{\begin{array}{#1} #2 \end{array}}}
+\newcommand{\ar}[2] {\begin{array}{#1} #2 \end{array}}
+\newcommand{\sbrar}[2] {\sbram{\begin{array}{#1} #2 \end{array}}}
+\newcommand{\vmabs}[2] {\abs{\begin{array}{#1} #2 \end{array}}}
+\newcommand{\mac}[1] {\left < #1 \right >}
+
+\newcommand{\Cal}[1] {\mathcal{#1}}
+
+
+\newcommand{\xbp}[2] {x_{#1}^{#2}}
+\newcommand{\ybp}[2] {y_{#1}^{#2}}
+\newcommand{\thbp}[2] {\theta_{#1}^{#2}}
+
+\newcommand{\bm}[1] {\left \{ #1 \right \}}
+\newcommand{\bs}[1] {\left ( #1 \right )}
+\newcommand{\bl}[1] {\left [ #1 \right ]}
+\newcommand{\bml}[1] {\left \{ #1 \right .}
+\newcommand{\bsl}[1] {\left ( #1 \right .}
+\newcommand{\bll}[1] {\left [ #1 \right .}
+\newcommand{\bmr}[1] {\left . #1 \right \}}
+\newcommand{\bsr}[1] {\left . #1 \right )}
+\newcommand{\blr}[1] {\left . #1 \right ]}
+\newcommand{\mcc}[1] {\left \langle #1 \right \rangle}
+\newcommand{\abs}[1] {\left | #1 \right |}
+\newcommand{\dabs}[1] {\left \| #1 \right \|}
+
+\newcommand{\p}[1] {\mbox{$ {p} \left ( #1 \right )$ }} % Probability
+\newcommand{\li}[1] {l \left ( #1 \right )}
+\newcommand{\lio}[1] {l_i^{c} \left ( #1 \right )}
+\newcommand{\lia}[1] {l_j^{a} \left ( #1 \right )}
+\newcommand{\lid}[1] {l_j^{d} \left ( #1 \right )}
+\newcommand{\lir}[1] {l_j^{r} \left ( #1 \right )}
+\newcommand{\f}[2] {#1 \left ( #2 \right )}
+\newcommand{\Vf}[1] {\mathbf{f} \left ( #1 \right )}
+\newcommand{\Vfb}[2] {\mathbf{f}_{#1} \left ( #2 \right )}
+\newcommand{\Vfp}[2] {\mathbf{f}^{#1} \left ( #2 \right )}
+\newcommand{\Vfbp}[3] {\mathbf{f}_{#1}^{#2} \left ( #3 \right )}
+\newcommand{\Vh}[1] {\mathbf{h} \left ( #1 \right )}
+\newcommand{\Vhb}[2] {\mathbf{h}_{#1} \left ( #2 \right )}
+\newcommand{\Vhp}[2] {\mathbf{h}^{#1} \left ( #2 \right )}
+\newcommand{\pVhp}[3] {{}^{#1}\mathbf{h}^{#2} \left ( #3 \right )}
+\newcommand{\Vhbp}[3] {\mathbf{h}_{#1}^{#2} \left ( #3 \right )}
+\newcommand{\pVgp}[3] {{}^{#1}\mathbf{g}^{#2} \left ( #3 \right )}
+
+% general global definitions
+\newcommand{\Def}{\ {\buildrel \triangle\over =}\ }
+\newcommand{\beq} {\begin{equation}}
+\newcommand{\eeq} {\end{equation}}
+\newcommand{\beqn} {\begin{eqnarray}}
+\newcommand{\eeqn} {\end{eqnarray}}
+\newcommand{\E}[1] {\mbox{$ {\rm E} \{ #1 \}$ }}
+\newcommand{\Es}[2] {\mbox{$ {\rm E}^{#1} \{ #2 \}$ }}
+\newcommand{\Set}[1] {\mbox{$ \{ #1 \} $ }}
+\newcommand{\Cali}[2] {\mbox{$ {\cal #1 }_{#2} $}}
+\newcommand{\PR}[1]  {\mbox{$ P(#1) $}}
+\newcommand{\Pri}[2]  {\mbox{$ P_{#1}(#2) $}}
+\newcommand{\PRi}[2]  {\mbox{$ P_{#1}(#2) $}}
+\newcommand{\Pris}[3]  {\mbox{$ P_{#1}^{#2}(#3) $}}
+\newcommand{\like}[1]  {\mbox{$ \Lambda(\bf #1) $}}
+\newcommand{\likei}[2]  {\mbox{$ \Lambda_{#2}(\bf #1) $}}
+\newcommand{\LL}[1]  {\mbox{$ l(#1) $}} % loglikelihood
+\newcommand{\LLi}[2]  {\mbox{$ l_{#1}(#2) $}} %loglikelihood
+\newcommand{\EN}[1]  {\mbox{$ H(#1) $}} % entropy
+\newcommand{\ENi}[2]  {\mbox{$ H_{#1}(#2) $}} % entropy
+\newcommand{\mEN}[1]  {\mbox{$ \overline{H}(#1) $}} % mean entropy
+\newcommand{\MI}[1]  {\mbox{$ I(#1) $}}  %mutual information
+\newcommand{\est}[1]  {\mbox{$\hat{\bf #1}$}}
+\newcommand{\estk}[2]  {\mbox{$\hat{\bf #1}(#2)$}}
+\newcommand{\esti}[2]  {\mbox{$\hat{\bf #1}_{#2}$}}
+\newcommand{\D}[1]    {\mbox{${\rm d} {#1}$}}
+\newcommand{\mean}[1] {\mbox{$\overline{ #1}$}}
+\newcommand{\Det}[1] {\mbox{$\mid {#1} \mid $}}
+\newcommand{\One}      {\mbox{${\bf 1}$}}
+\newcommand{\Zero}      {\mbox{${\bf 0}$}}
+\newcommand{\grad}[1] {\mbox{${\bf\nabla} #1$}}
+\newcommand{\J}[3] {\mbox{${\bf\nabla}{\bf #1}_{\bf #2}(#3)$}}
+\newcommand{\Jt}[3] {\mbox{${\bf\nabla}^T{\bf #1}_{\bf #2}(#3)$}}
+\newcommand{\pdf}{{\it pdf\ }}
+\newcommand{\dxt}[2]  {\mbox{$\dot{\bf #1}( #2)$}}
+% defining different types of vectors
+% first those with no time subscripts
+\newcommand{\Vt}[1] {\mbox{${\bf #1}^T$}}
+\newcommand{\Vin}[1] {\mbox{${\bf #1}^{-1}$}}
+\newcommand{\Vgin}[1] {\mbox{${\bf #1}^{\dagger}$}}
+\newcommand{\Vi}[2] {\mbox{${\bf #1}_{#2}$}}
+\newcommand{\Vs}[2] {\mbox{${\bf #1}^{#2}$}}
+\newcommand{\Vis}[3] {\mbox{${\bf #1}_{#2}^{#3}$}}
+\newcommand{\Vit}[2] {\mbox{${\bf #1}_{#2}^T$}}
+\newcommand{\Vini}[2] {\mbox{${\bf #1}_{#2}^{-1}$}}
+\newcommand{\Vgini}[2] {\mbox{${\bf #1}^{\dagger}$}}
+\newcommand{\tV}[1] {\mbox{$\tilde{\bf #1}$}}
+\newcommand{\tVi}[2] {\mbox{$\tilde{\bf #1}_{#2}$}}
+\newcommand{\tVini}[2] {\mbox{$\tilde{\bf #1}_{#2}^{-1}$}}
+\newcommand{\tick}  {\mbox{$\delta t$}}
+
+% next those with time subscript k (very common)
+\newcommand{\Vk}[1] {\mbox{${\bf #1}(k)$}}
+\newcommand{\Vkt}[1] {\mbox{${\bf #1}^T(k)$}}
+\newcommand{\Vkin}[1] {\mbox{${\bf #1}^{-1}(k)$}}
+\newcommand{\Vkgin}[1] {\mbox{${\bf #1}^{\dagger}(k)$}}
+\newcommand{\Vki}[2] {\mbox{${\bf #1}_{#2}(k)$}}
+\newcommand{\Vks}[2] {\mbox{${\bf #1}^{#2}(k)$}}
+\newcommand{\Vkis}[3] {\mbox{${\bf #1}_{#2}^{#3}(k)$}}
+\newcommand{\Vkit}[2] {\mbox{${\bf #1}_{#2}^T(k)$}}
+\newcommand{\Vkini}[2] {\mbox{${\bf #1}_{#2}^{-1}(k)$}}
+\newcommand{\Vkgini}[2] {\mbox{${\bf #1}^{\dagger}_{#2}(k)$}}
+\newcommand{\tVk}[1] {\mbox{$\tilde{\bf #1}(k)$}}
+\newcommand{\tVki}[2] {\mbox{$\tilde{\bf #1}_{#2}(k)$}}
+
+% now those with general purpose time subscripts
+%\newcommand{\Vec}[2] {\mbox{${\bf #1}(#2)$}}
+\newcommand{\Vect}[2] {\mbox{${\bf #1}^T(#2)$}}
+\newcommand{\Vecin}[2] {\mbox{${\bf #1}^{-1}(#2)$}}
+\newcommand{\Veci}[3] {\mbox{${\bf #1}_{#2}(#3)$}}
+\newcommand{\Vecs}[3] {\mbox{${\bf #1}^{#2}(#3)$}}
+\newcommand{\Vecit}[3] {\mbox{${\bf #1}_{#2}^T(#3)$}}
+\newcommand{\Vecini}[3] {\mbox{${\bf #1}_{#2}^{-1}(#3)$}}
+\newcommand{\Vecgin}[2] {\mbox{${\bf #1}^{\dagger}(#2)$}}
+\newcommand{\Vecgini}[3] {\mbox{${\bf #1}^{\dagger}_{#2}(#3)$}}
+
+% special symbols used very commonly
+% state estimates of different sorts
+\newcommand{\x}[2] {\mbox{$\hat{\bf x}( #1 \mid #2)$}}
+\newcommand{\xj}[3] {\mbox{$\hat{\bf x}_{#1}( #2 \mid #3)$}}
+\newcommand{\tx}[2] {\mbox{$\tilde{\bf x}( #1 \mid #2 )$}}
+\newcommand{\txt}[2] {\mbox{$\tilde{\bf x}^T( #1 \mid #2 )$}}
+\newcommand{\txi}[3] {\mbox{$\tilde{\bf x}_{#1}( #2 \mid #3 )$}}
+\newcommand{\txit}[3] {\mbox{$\tilde{\bf x}^T_{#1}( #2 \mid #3 )$}}
+\newcommand{\z}[2] {\mbox{$\hat{\bf z}( #1 \mid #2)$}}
+\newcommand{\tz}[2] {\mbox{$\tilde{\bf z}( #1 \mid #2)$}}
+\newcommand{\tzt}[2] {\mbox{$\tilde{\bf z}^T( #1 \mid #2)$}}
+\newcommand{\zi}[3] {\mbox{$\hat{\bf z}_{#1}( #2 \mid #3)$}}
+\newcommand{\di}[3] {\mbox{$\hat{\bf \delta}_{#1}( #2 \mid #3)$}}
+
+% variances of different sorts
+\newcommand{\var}[2] {\mbox{${\bf P}( #1 \mid #2)$}}
+\newcommand{\varin}[2] {\mbox{${\bf P}^{-1}( #1 \mid #2)$}}
+\newcommand{\tvar}[2] {\mbox{$\tilde{\bf P}( #1 \mid #2)$}}
+\newcommand{\tvarin}[2] {\mbox{$\tilde{\bf P}^{-1}( #1 \mid #2)$}}
+\newcommand{\vari}[3] {\mbox{${\bf P}_{#1}( #2 \mid #3)$}}
+\newcommand{\varit}[3] {\mbox{${\bf P}^T_{#1}( #2 \mid #3)$}}
+\newcommand{\varini}[3] {\mbox{${\bf P}^{-1}_{#1}( #2 \mid #3)$}}
+\newcommand{\tvari}[3] {\mbox{$\tilde{\bf P}_{#1}( #2 \mid #3)$}}
+\newcommand{\tvarini}[3] {\mbox{$\tilde{\bf P}^{-1}_{#1}( #2 \mid #3)$}}
+
+% information states and variances
+\newcommand{\y}[2] {\mbox{$\hat{\bf y}( #1 \mid #2)$}}
+\newcommand{\ty}[2] {\mbox{$\tilde{\bf y}( #1 \mid #2)$}}
+\newcommand{\yi}[3] {\mbox{$\hat{\bf y}_{#1}( #2 \mid #3)$}}
+\newcommand{\tyi}[3] {\mbox{$\tilde{\bf y}_{#1}( #2 \mid #3)$}}
+\newcommand{\Y}[2] {\mbox{${\bf Y}( #1 \mid #2)$}}
+\newcommand{\Yin}[2] {\mbox{${\bf Y}^{-1}( #1 \mid #2)$}}
+\newcommand{\tY}[2] {\mbox{$\tilde{\bf Y}( #1 \mid #2)$}}
+\newcommand{\Yi}[3] {\mbox{${\bf Y}_{#1}( #2 \mid #3)$}}
+\newcommand{\Yini}[3] {\mbox{${\bf Y}_{#1}^{-1}( #2 \mid #3)$}}
+\newcommand{\tYi}[3] {\mbox{$\tilde{\bf Y}_{#1}( #2 \mid #3)$}}
+\newcommand{\info}[1] {\mbox{${\bf i}( #1)$}}
+\newcommand{\Info}[1] {\mbox{${\bf I}( #1)$}}
+\newcommand{\infoi}[2] {\mbox{${\bf i}_{#1}( #2)$}}
+\newcommand{\infois}[3] {\mbox{${\bf i}_{#1}^{#2}(#3)$}}
+\newcommand{\Infoi}[2] {\mbox{${\bf I}_{#1}( #2)$}}
+\newcommand{\tInfoi}[2] {\mbox{$\tilde{\bf I}_{#1}( #2)$}}
+\newcommand{\Infoin}[1] {\mbox{${\bf I}^{\dagger}( #1)$}}
+\newcommand{\Infoini}[2] {\mbox{${\bf I}^{\dagger}_{#1}( #2)$}}
+\newcommand{\Prop}[2] {\mbox{${\bf L}( #1 \mid #2)$}}
+\newcommand{\Propi}[3] {\mbox{${\bf L}_{#1}( #2 \mid #3)$}}
+\newcommand{\Z}[2] {\mbox{${\cal Z}^{#1}_{#2}$}}
+
+% spurious ones
+\newcommand{\maybe}{\ {\buildrel ?\over =}\ } %chapter 4
+\newcommand{\svd} {\mbox{$\dagger$}} % chapter 4
+\newcommand{\dnoise} {\mbox{$\delta d$}} % chapter 6 and 7
+\newcommand{\unoise} {\mbox{$\delta u$}} % chapter 6
+\newcommand{\ns}[1] {\mbox{$ #1$}} % chapter 6
+\newcommand{\vs} {\vspace{0.17in}}
+\newcommand{\svs} {\vspace{0.17cm}}
+\newcommand{\vsf} {\vspace{0.4in}}
+\newcommand{\vsff} {\vspace{1in}}
+\newcommand{\veqns} {\vspace{-0.15in}}
+\newcommand{\veqn} {\vspace{-0.12in}}
+\newcommand{\sveqn} {\vspace{-0.06in}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\Quote}{\parbox[t]{12.5cm}}
+%\newtheorem{example}{Example}
+
+\newcommand{\myline} {\rule[1mm]{100mm}{1mm}}
+\newcommand{\egend} {\rule[1mm]{125mm}{1mm}}
+\newcommand{\egbegin} {\rule[1mm]{100mm}{1mm}}
+\newcommand{\Stitle}[1]{\centering{ {\huge{ {\bf #1} }}}}
