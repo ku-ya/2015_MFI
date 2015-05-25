@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  6 MAY 2015 11:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  12 MAY 2015 16:55
 entering extended mode
 **root.tex
 (H:\github\2015_MFI\root.tex
@@ -110,7 +110,51 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
-(H:\github\2015_MFI\root.aux)
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("H:\Program Files\MiKTeX 2.9\tex/latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+\@input{defs.aux}
+(H:\github\2015_MFI\defs.tex) (H:\github\2015_MFI\root.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -123,12 +167,30 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+
+(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen115
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen116
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+ ("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 39.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1pcr.fd"
@@ -141,8 +203,133 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 57.
+
+Overfull \hbox (171.62482pt too wide) detected at line 59
+[][] \OT1/cmr/m/n/10 = [][] [][]\OML/cmm/m/it/10 d\OT1/cmr/bx/n/10 x[]\OML/cmm/
+m/it/10 :
+ []
+
+
+Overfull \hbox (32.50015pt too wide) in alignment at lines 61--64
+ [][][] []
+ []
+
+
+Overfull \hbox (9.41432pt too wide) in paragraph at lines 64--66
+\OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 q [] \OT1/cmr/m/n/10 = []$\OT1/ptm/m/n/
+10 ,
+ []
+
+
+Overfull \hbox (36.4881pt too wide) detected at line 70
+[]\OML/cmm/m/it/10 l [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 l[] [] [] l[] []
+ []
+
+
+Overfull \hbox (26.11446pt too wide) detected at line 79
+[]\OML/cmm/m/it/10 l[] [] \OT1/cmr/m/n/10 = []
+ []
+
+
+LaTeX Warning: Reference `fig:hybrid' on page 1 undefined on input line 108.
+
+
+LaTeX Warning: Reference `fig:joint' on page 1 undefined on input line 108.
+
+
+LaTeX Warning: Reference `fig:posterior' on page 1 undefined on input line 108.
+
+
+
+LaTeX Warning: Reference `fig:auditory_procedure' on page 1 undefined on input 
+line 120.
+
+
+LaTeX Warning: Citation `bellusci2007ultra' on page 1 undefined on input line 1
+20.
+
+[1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+]
+
+LaTeX Warning: Reference `fig:auditory_approach' on page 2 undefined on input l
+ine 141.
+
+
+LaTeX Warning: Reference `fig:NFOV_acoustic' on page 2 undefined on input line 
+141.
+
+
+LaTeX Warning: Citation `lee2006large' on page 2 undefined on input line 141.
+
+
+LaTeX Warning: Citation `irahhauten2006investigation' on page 2 undefined on in
+put line 141.
+
+
+LaTeX Warning: Citation `xu2008delay' on page 2 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Guvenc2009' on page 2 undefined on input line 141.
+
+
+LaTeX Warning: Reference `fig:sound_extraction' on page 2 undefined on input li
+ne 141.
+
+<Figures/diffraction1.png, id=22, 289.5618pt x 252.945pt>
+File: Figures/diffraction1.png Graphic file (type png)
+
+<use Figures/diffraction1.png>
+Package pdftex.def Info: Figures/diffraction1.png used on input line 146.
+(pdftex.def)             Requested size: 245.71811pt x 214.65303pt.
+
+
+LaTeX Warning: Reference `fig:diffraction1' on page 2 undefined on input line 1
+65.
+
+
+LaTeX Warning: Citation `medwin1981shadowing' on page 2 undefined on input line
+ 170.
+
+
+LaTeX Warning: Reference `fig:diffraction2' on page 2 undefined on input line 1
+70.
+
+[2 <H:/github/2015_MFI/Figures/diffraction1.png>]
+
+LaTeX Warning: Reference `fig:reflection' on page 3 undefined on input line 178
+.
+
+
+LaTeX Warning: Citation `pulkki1997' on page 3 undefined on input line 178.
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 177--188
+\OT1/ptm/m/n/10 of sound di-rec-tion from re-flec-tion sig-nals. Re-flec-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--188
+
+ []
+
+
+Overfull \hbox (80.48294pt too wide) detected at line 199
+[][][] \OT1/cmr/m/n/10 = [] [][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 d[] [] [] 
+\OT1/cmr/m/n/10 + [] \OML/cmm/m/it/10 :
+ []
+
+
+Overfull \hbox (12.61662pt too wide) detected at line 217
+[]\OML/cmm/m/it/10 l[] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 l[] [] l[] []
+ []
+
+
+LaTeX Warning: Reference `fig:data_fusion' on page 3 undefined on input line 21
+9.
 
 
 ** Conference Paper **
@@ -155,35 +342,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
+[3] (H:\github\2015_MFI\root.aux)
 
-Overfull \vbox (336.63313pt too high) has occurred while \output is active []
+LaTeX Warning: There were undefined references.
 
-
-[1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
-]
-(H:\github\2015_MFI\root.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 860 strings out of 493921
- 14229 string characters out of 3147285
- 62306 words of memory out of 3000000
- 4214 multiletter control sequences out of 15000+200000
- 35216 words of font info for 72 fonts, out of 3000000 for 9000
+ 2301 strings out of 493921
+ 31173 string characters out of 3147285
+ 97059 words of memory out of 3000000
+ 5590 multiletter control sequences out of 15000+200000
+ 41362 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,8n,19p,263b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fon
-tname/8r.enc}<H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><H:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/courier/ucrr8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmb8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
-i8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on root.pdf (1 page, 76523 bytes).
+ 27i,10n,26p,1944b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<H:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><H:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><H:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb><H:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/courier/ucrr8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmb8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><H:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><H:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on root.pdf (3 pages, 216489 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

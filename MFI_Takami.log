@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  12 MAY 2015 16:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  18 MAY 2015 13:22
 entering extended mode
 **MFI_Takami.tex
 (H:\github\2015_MFI\MFI_Takami.tex
@@ -110,6 +110,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
 ("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -132,6 +139,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
@@ -142,12 +152,12 @@ Package: amstext 2000/06/29 v2.01
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen113
+\@emptytoks=\toks16
+\ex@=\dimen115
 ))
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen114
+\pmbraise@=\dimen116
 )
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -164,7 +174,7 @@ LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen115
+\big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count97
@@ -172,21 +182,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count99
 \dspbrk@lvl=\count100
-\tag@help=\toks16
+\tag@help=\toks17
 \row@=\count101
 \column@=\count102
 \maxfields@=\count103
-\andhelp@=\toks17
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
-\@envbody=\toks18
+\andhelp@=\toks18
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks19
 \multlinegap=\skip48
 \multlinetaggap=\skip49
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -204,9 +214,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip50
 \subfigcapskip=\skip51
-\subfigcaptopadj=\dimen122
+\subfigcaptopadj=\dimen124
 \subfigbottomskip=\skip52
-\subfigcapmargin=\dimen123
+\subfigcapmargin=\dimen125
 \subfiglabelskip=\skip53
 \c@subfigure=\count104
 \c@lofdepth=\count105
@@ -220,205 +230,247 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip54
 \subfig@bottom=\skip55
 )
-("H:\Program Files\MiKTeX 2.9\tex/latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
-\float@exts=\toks20
-\float@box=\box29
-\@float@everytoks=\toks21
-\@floatcapt=\box30
-)
-(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-
-("H:\Program Files\MiKTeX 2.9\tex/latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-\captionmargin=\dimen124
-\captionmargin@=\dimen125
-\captionwidth=\dimen126
-\caption@tempdima=\dimen127
-\caption@indent=\dimen128
-\caption@parindent=\dimen129
-\caption@hangindent=\dimen130
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {c
-enter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@te
-mpboxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@te
-mpboxa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent
- \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize
- \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempbo
-xa \hfil }\fi \fi \fi .
-\c@ContinuedFloat=\count109
-Package caption Info: float package is loaded.
-Package caption Info: subfigure package is loaded.
+(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
 )
 \@input{defs.aux}
 (H:\github\2015_MFI\defs.tex) (H:\github\2015_MFI\MFI_Takami.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen131
-\scratchbox=\box31
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen132
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count108
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen127
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks22
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
  ("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 44.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 44.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 
-Overfull \hbox (171.62482pt too wide) detected at line 64
+
+LaTeX Warning: Reference `fig:FOV' on page 1 undefined on input line 59.
+
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 61.
+("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+) [1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+] [2]
+Overfull \hbox (171.62482pt too wide) detected at line 102
 [] \OT1/cmr/m/n/10 = [][] [][]\OML/cmm/m/it/10 d\OT1/cmr/bx/n/10 x[]\OML/cmm/m/
 it/10 :
  []
 
 
-Overfull \hbox (32.50015pt too wide) in alignment at lines 66--69
+Overfull \hbox (32.50015pt too wide) in alignment at lines 104--107
  [][][] []
  []
 
 
-Overfull \hbox (9.41432pt too wide) in paragraph at lines 69--71
+Overfull \hbox (9.41432pt too wide) in paragraph at lines 107--109
 \OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 q [] \OT1/cmr/m/n/10 = []$\OT1/ptm/m/n/
 10 ,
  []
 
 
-Overfull \hbox (36.4881pt too wide) detected at line 75
+Overfull \hbox (36.4881pt too wide) detected at line 113
 \OML/cmm/m/it/10 l [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 l[] [] [] l[] []
  []
 
 
-Overfull \hbox (26.11446pt too wide) detected at line 84
+Overfull \hbox (26.11446pt too wide) detected at line 122
 \OML/cmm/m/it/10 l[] [] \OT1/cmr/m/n/10 = []
  []
 
+<Figures/joint.png, id=15, 313.17pt x 279.444pt>
+File: Figures/joint.png Graphic file (type png)
+ <use Figures/joint.png>
+Package pdftex.def Info: Figures/joint.png used on input line 132.
+(pdftex.def)             Requested size: 191.32013pt x 170.71652pt.
 
-LaTeX Warning: Reference `fig:hybrid' on page 1 undefined on input line 113.
+<Figures/posterior.png, id=17, 362.7954pt x 283.7802pt>
+File: Figures/posterior.png Graphic file (type png)
 
+<use Figures/posterior.png>
+Package pdftex.def Info: Figures/posterior.png used on input line 137.
+(pdftex.def)             Requested size: 218.26018pt x 170.71652pt.
 
-LaTeX Warning: Reference `fig:joint' on page 1 undefined on input line 113.
+<Figures/auditory_procedure.png, id=18, 626.8218pt x 549.252pt>
+File: Figures/auditory_procedure.png Graphic file (type png)
 
+<use Figures/auditory_procedure.png>
+Package pdftex.def Info: Figures/auditory_procedure.png used on input line 145.
 
-LaTeX Warning: Reference `fig:posterior' on page 1 undefined on input line 113.
-
-
-
-LaTeX Warning: Reference `fig:auditory_procedure' on page 1 undefined on input 
-line 125.
-
-
-LaTeX Warning: Citation `bellusci2007ultra' on page 1 undefined on input line 1
-25.
-
-[1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
-
-]
-
-LaTeX Warning: Reference `fig:auditory_approach' on page 2 undefined on input l
-ine 146.
+(pdftex.def)             Requested size: 230.92572pt x 202.3529pt.
 
 
-LaTeX Warning: Reference `fig:NFOV_acoustic' on page 2 undefined on input line 
-146.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] <Figures/NFOV_acoustic.png, id=32, 374.8404pt x 408.5664pt>
+File: Figures/NFOV_acoustic.png Graphic file (type png)
+
+<use Figures/NFOV_acoustic.png>
+Package pdftex.def Info: Figures/NFOV_acoustic.png used on input line 171.
+(pdftex.def)             Requested size: 156.62543pt x 170.71652pt.
+
+<Figures/sound_extraction.png, id=33, 394.1124pt x 327.1422pt>
+File: Figures/sound_extraction.png Graphic file (type png)
+
+<use Figures/sound_extraction.png>
+Package pdftex.def Info: Figures/sound_extraction.png used on input line 176.
+(pdftex.def)             Requested size: 171.38338pt x 142.26378pt.
+
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+ [4 <H:/github/2015_MFI/Figures/joint.png> <H:/github/2015_MFI/Figures/posterio
+r.png> <H:/github/2015_MFI/Figures/auditory_procedure.png>]
+<Figures/diffraction1.png, id=40, 289.5618pt x 252.945pt>
+File: Figures/diffraction1.png Graphic file (type png)
+
+<use Figures/diffraction1.png>
+Package pdftex.def Info: Figures/diffraction1.png used on input line 195.
+(pdftex.def)             Requested size: 162.86043pt x 142.26378pt.
+
+<Figures/diffraction.png, id=41, 255.354pt x 163.3302pt>
+File: Figures/diffraction.png Graphic file (type png)
+
+<use Figures/diffraction.png>
+Package pdftex.def Info: Figures/diffraction.png used on input line 200.
+(pdftex.def)             Requested size: 222.41724pt x 142.26378pt.
+ [5 <H:/github/2015_MFI/Figures/NFOV_acoustic.png> <H:/github/2015_MFI/Figures/
+sound_extraction.png> <H:/github/2015_MFI/Figures/diffraction1.png> <H:/github/
+2015_MFI/Figures/diffraction.png>]
+<Figures/reflection.png, id=49, 423.984pt x 302.5704pt>
+File: Figures/reflection.png Graphic file (type png)
+
+<use Figures/reflection.png>
+Package pdftex.def Info: Figures/reflection.png used on input line 222.
+(pdftex.def)             Requested size: 177.06458pt x 126.36308pt.
+
+Overfull \hbox (80.48294pt too wide) detected at line 239
+[][] \OT1/cmr/m/n/10 = [] [][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 d[] [] [] \O
+T1/cmr/m/n/10 + [] \OML/cmm/m/it/10 :
+ []
+
+<Figures/data_fusion.png, id=50, 374.8404pt x 408.5664pt>
+File: Figures/data_fusion.png Graphic file (type png)
+
+<use Figures/data_fusion.png>
+Package pdftex.def Info: Figures/data_fusion.png used on input line 247.
+(pdftex.def)             Requested size: 151.76854pt x 165.42484pt.
+
+Overfull \hbox (12.61662pt too wide) detected at line 256
+\OML/cmm/m/it/10 l[] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 l[] [] l[] []
+ []
 
 
-LaTeX Warning: Citation `lee2006large' on page 2 undefined on input line 146.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <H:/github/2015_MFI/Figures/reflection.png> <H:/github/2015_MFI/Figures/data
+_fusion.png>] (H:\github\2015_MFI\MFI_Takami.bbl [7]
+Underfull \vbox (badness 3009) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `irahhauten2006investigation' on page 2 undefined on in
-put line 146.
+Underfull \hbox (badness 1852) in paragraph at lines 288--293
+[]\OT1/ptm/m/n/8 Z. Irah-hauten, G. Bel-lusci, G. J. Janssen, H. Nikookar, and
+ []
 
 
-LaTeX Warning: Citation `xu2008delay' on page 2 undefined on input line 146.
+Underfull \vbox (badness 3009) has occurred while \output is active []
 
+ [8]
+[9]
+Underfull \vbox (badness 4132) has occurred while \output is active []
 
-LaTeX Warning: Citation `Guvenc2009' on page 2 undefined on input line 146.
-
-
-LaTeX Warning: Reference `fig:sound_extraction' on page 2 undefined on input li
-ne 146.
+ [10]
+Underfull \vbox (badness 3009) has occurred while \output is active []
 
 )
-Runaway argument?
- the proposed approach starts target estimation from diffraction sign\ETC.
-! File ended while scanning use of \Gin@iii.
-<inserted text> 
-                \par 
-<*> MFI_Takami.tex
-                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
-! Emergency stop.
-<*> MFI_Takami.tex
-                  
-*** (job aborted, no legal \end found)
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
 
- 
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the US letter (8.5in X 11in) paper size.
+
+[11] (H:\github\2015_MFI\MFI_Takami.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4064 strings out of 493921
- 58484 string characters out of 3147285
- 132149 words of memory out of 3000000
- 7328 multiletter control sequences out of 15000+200000
- 41362 words of font info for 91 fonts, out of 3000000 for 9000
+ 3379 strings out of 493921
+ 45420 string characters out of 3147285
+ 111559 words of memory out of 3000000
+ 6623 multiletter control sequences out of 15000+200000
+ 45449 words of font info for 97 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,12n,38p,1950b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 27i,12n,26p,2383b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<H:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><H:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><H:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb><H:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/courier/ucrr8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmb8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><H:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><H:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MFI_Takami.pdf (11 pages, 556277 bytes).
+PDF statistics:
+ 126 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

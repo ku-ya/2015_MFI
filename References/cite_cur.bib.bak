@@ -1,0 +1,2314 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{ahonen2003mobile,
+  Title                    = {Mobile terminal location for UMTS},
+  Author                   = {Ahonen, Suvi and Eskelinen, Pekka},
+  Journal                  = {Aerospace and Electronic Systems Magazine, IEEE},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {23--27},
+  Volume                   = {18},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{akgul2007aoa,
+  Title                    = {AOA assisted NLOS error mitigation for TOA-based indoor positioning systems},
+  Author                   = {Akgul, Ferit Ozan and Pahlavan, Kaveh},
+  Booktitle                = {Military Communications Conference, 2007. MILCOM 2007. IEEE},
+  Year                     = {2007},
+  Organization             = {IEEE},
+  Pages                    = {1--5}
+}
+
+@InProceedings{al2002ml,
+  Title                    = {ML and Bayesian TOA location estimators for NLOS environments},
+  Author                   = {Al-Jazzar, S and Caffery, Jr},
+  Booktitle                = {Vehicular Technology Conference, 2002. Proceedings. VTC 2002-Fall. 2002 IEEE 56th},
+  Year                     = {2002},
+  Organization             = {IEEE},
+  Pages                    = {1178--1181},
+  Volume                   = {2}
+}
+
+@InProceedings{bachrach2009co,
+  Title                    = {Co-ordinated tracking and planning using air and ground vehicles},
+  Author                   = {Bachrach, Abraham and Garamifard, Alborz and Gurdan, Daniel and He, Ruijie and Prentice, Sam and Stumpf, Jan and Roy, Nicholas},
+  Booktitle                = {Experimental Robotics},
+  Year                     = {2009},
+  Organization             = {Springer},
+  Pages                    = {137--146}
+}
+
+@InProceedings{Bahl2000,
+  Title                    = {RADAR: An in-building RF-based user location and tracking system},
+  Author                   = {Bahl, Paramvir and Padmanabhan, Venkata N},
+  Booktitle                = {INFOCOM 2000. Nineteenth Annual Joint Conference of the IEEE Computer and Communications Societies. Proceedings. IEEE},
+  Year                     = {2000},
+  Organization             = {Ieee},
+  Pages                    = {775--784},
+  Volume                   = {2}
+}
+
+@InProceedings{bahl2000radar,
+  Title                    = {RADAR: An in-building RF-based user location and tracking system},
+  Author                   = {Bahl, Paramvir and Padmanabhan, Venkata N},
+  Booktitle                = {INFOCOM 2000. Nineteenth Annual Joint Conference of the IEEE Computer and Communications Societies. Proceedings. IEEE},
+  Year                     = {2000},
+  Organization             = {Ieee},
+  Pages                    = {775--784},
+  Volume                   = {2}
+}
+
+@TechReport{bahl2000software,
+  Title                    = {A software system for locating mobile users: Design, evaluation},
+  Author                   = {Bahl, Paramvir and Padmanabhan, Venkata N and Balachandran, Anand},
+  Institution              = {and lessons. Technical report, Microsoft Research, MSR-TR-2000-12},
+  Year                     = {2000}
+}
+
+@InProceedings{bellusci2007ultra,
+  Title                    = {An ultra-wideband positioning demonstrator using audio signals},
+  Author                   = {Bellusci, Giovanni and Yan, Junlin and Janssen, Gerard JM and Tiberius, Christian CJM},
+  Booktitle                = {Positioning, Navigation and Communication, 2007. WPNC'07. 4th Workshop on},
+  Year                     = {2007},
+  Organization             = {IEEE},
+  Pages                    = {71--76}
+}
+
+@Article{Bertinato2008,
+  Title                    = {RF Localization and tracking of mobile nodes in Wireless Sensors Networks: Architectures, Algorithms and Experiments},
+  Author                   = {Bertinato, Marco and Ortolan, Giulia and Maran, Fabio and Marcon, Riccardo and Marcassa, Alessandro and Zanella, Filippo and Zambotto, Matrizio and Schenato, Luca and Cenedese, Angelo},
+  Year                     = {2008}
+}
+
+@Article{Borenstein1996,
+  Title                    = {Where am I? Sensors and methods for mobile robot positioning},
+  Author                   = {Borenstein, Johann and Everett, HR and Feng, Liqiang},
+  Journal                  = {University of Michigan},
+  Year                     = {1996},
+  Pages                    = {120},
+  Volume                   = {119},
+
+  Owner                    = {k}
+}
+
+@TechReport{Borenstein1997,
+  Title                    = {Mobile robot positioning-sensors and techniques},
+  Author                   = {Borenstein, Johann and Everett, HR and Feng, Liqiang and Wehe, David},
+  Institution              = {DTIC Document},
+  Year                     = {1997},
+
+  Owner                    = {k}
+}
+
+@InProceedings{borras1998decision,
+  Title                    = {Decision theoretic framework for NLOS identification},
+  Author                   = {Borras, Joan and Hatrack, Paul and Mandayam, Narayan B},
+  Booktitle                = {Vehicular Technology Conference, 1998. VTC 98. 48th IEEE},
+  Year                     = {1998},
+  Organization             = {IEEE},
+  Pages                    = {1583--1587},
+  Volume                   = {2}
+}
+
+@InProceedings{bosse2002vanishing,
+  Title                    = {Vanishing points and 3D lines from omnidirectional video.},
+  Author                   = {Bosse, Michael and Rikoski, Richard J and Leonard, John J and Teller, Seth J},
+  Booktitle                = {ICIP (3)},
+  Year                     = {2002},
+  Organization             = {Citeseer},
+  Pages                    = {513--516}
+}
+
+@Article{brunato2005statistical,
+  Title                    = {Statistical learning theory for location fingerprinting in wireless LANs},
+  Author                   = {Brunato, Mauro and Battiti, Roberto},
+  Journal                  = {Computer Networks},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {825--845},
+  Volume                   = {47},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{burgard1999experiences,
+  Title                    = {Experiences with an interactive museum tour-guide robot},
+  Author                   = {Burgard, Wolfram and Cremers, Armin B and Fox, Dieter and H{\"a}hnel, Dirk and Lakemeyer, Gerhard and Schulz, Dirk and Steiner, Walter and Thrun, Sebastian},
+  Journal                  = {Artificial intelligence},
+  Year                     = {1999},
+  Number                   = {1},
+  Pages                    = {3--55},
+  Volume                   = {114},
+
+  Publisher                = {Elsevier}
+}
+
+@InProceedings{caffery2000new,
+  Title                    = {A new approach to the geometry of TOA location},
+  Author                   = {Caffery Jr, James J},
+  Booktitle                = {Vehicular Technology Conference, 2000. IEEE-VTS Fall VTC 2000. 52nd},
+  Year                     = {2000},
+  Organization             = {IEEE},
+  Pages                    = {1943--1949},
+  Volume                   = {4}
+}
+
+@Book{caffery2000wireless,
+  Title                    = {Wireless location in CDMA cellular radio systems},
+  Author                   = {Caffery, James J},
+  Publisher                = {Springer},
+  Year                     = {2000}
+}
+
+@Article{caffery1998overview,
+  Title                    = {Overview of radiolocation in CDMA cellular systems},
+  Author                   = {Caffery, James J and Stuber, Gordon L},
+  Journal                  = {Communications Magazine, IEEE},
+  Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {38--45},
+  Volume                   = {36},
+
+  Publisher                = {IEEE}
+}
+
+@Article{casper2003human,
+  Title                    = {Human-robot interactions during the robot-assisted urban search and rescue response at the World Trade Center},
+  Author                   = {Casper, Jennifer and Murphy, Robin R.},
+  Journal                  = {Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE Transactions on},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {367--385},
+  Volume                   = {33},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{castellanos1998simultaneous,
+  Title                    = {Simultaneous map building and localization for mobile robots: A multisensor fusion approach},
+  Author                   = {Castellanos, Jose A and Martinez, JM and Neira, Jose and Tardos, Juan D},
+  Booktitle                = {Robotics and Automation, 1998. Proceedings. 1998 IEEE International Conference on},
+  Year                     = {1998},
+  Organization             = {IEEE},
+  Pages                    = {1244--1249},
+  Volume                   = {2}
+}
+
+@Article{castellanos2001multisensor,
+  Title                    = {Multisensor fusion for simultaneous localization and map building},
+  Author                   = {Castellanos, Jos{\'e} A and Neira, Jos{\'e} and Tard{\'o}s, Juan D},
+  Journal                  = {Robotics and Automation, IEEE Transactions on},
+  Year                     = {2001},
+  Number                   = {6},
+  Pages                    = {908--914},
+  Volume                   = {17},
+
+  Publisher                = {IEEE}
+}
+
+@Misc{ben2006TV,
+  Title                    = {How A Blind Teen \'Sees\' With Sound},
+
+  Author                   = {CBS},
+  Month                    = {July},
+  Note                     = {CBS News},
+  Year                     = {2006},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
+@Article{chan1994simple,
+  Title                    = {A simple and efficient estimator for hyperbolic location},
+  Author                   = {Chan, YT and Ho, KC},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {1994},
+  Number                   = {8},
+  Pages                    = {1905--1915},
+  Volume                   = {42},
+
+  Publisher                = {IEEE}
+}
+
+@Article{chan2006time,
+  Title                    = {Time-of-arrival based localization under NLOS conditions},
+  Author                   = {Chan, Yiu-Tong and Tsui, Wing-Yue and So, Hing-Cheung and Ching, Pak-chung},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {17--24},
+  Volume                   = {55},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{Chen1999,
+  Title                    = {A non-line-of-sight error mitigation algorithm in location estimation},
+  Author                   = {Chen, Pi-Chun},
+  Booktitle                = {Wireless Communications and Networking Conference, 1999. WCNC. 1999 IEEE},
+  Year                     = {1999},
+  Organization             = {IEEE},
+  Pages                    = {316--320},
+
+  Owner                    = {k}
+}
+
+@InProceedings{chen1999non,
+  Title                    = {A non-line-of-sight error mitigation algorithm in location estimation},
+  Author                   = {Chen, Pi-Chun},
+  Booktitle                = {Wireless Communications and Networking Conference, 1999. WCNC. 1999 IEEE},
+  Year                     = {1999},
+  Organization             = {IEEE},
+  Pages                    = {316--320}
+}
+
+@InCollection{chen2006robustness,
+  Title                    = {The robustness of localization algorithms to signal strength attacks: a comparative study},
+  Author                   = {Chen, Yingying and Kleisouris, Konstantinos and Li, Xiaoyan and Trappe, Wade and Martin, Richard P},
+  Booktitle                = {Distributed Computing in Sensor Systems},
+  Publisher                = {Springer},
+  Year                     = {2006},
+  Pages                    = {546--563}
+}
+
+@Article{chen2004real,
+  Title                    = {Real-time speaker tracking using particle filter sensor fusion},
+  Author                   = {Chen, Yunqiang and Rui, Yong},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {485--494},
+  Volume                   = {92},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{chen2005sensor,
+  Title                    = {Sensor-assisted wi-fi indoor location system for adapting to environmental dynamics},
+  Author                   = {Chen, Yi-Chao and Chiang, Ji-Rung and Chu, Hao-hua and Huang, Polly and Tsui, Arvin Wen},
+  Booktitle                = {Proceedings of the 8th ACM international symposium on Modeling, analysis and simulation of wireless and mobile systems},
+  Year                     = {2005},
+  Organization             = {ACM},
+  Pages                    = {118--125}
+}
+
+@Article{Cheng2013,
+  Title                    = {Indoor Mobile Localization in Wireless Sensor Network under Unknown NLOS Errors},
+  Author                   = {Cheng, Long and Wu, Hao and Wu, Chengdong and Zhang, Yunzhou},
+  Journal                  = {International Journal of Distributed Sensor Networks},
+  Year                     = {2013},
+  Volume                   = {2013},
+
+  Owner                    = {k},
+  Publisher                = {Hindawi Publishing Corporation}
+}
+
+@Article{civera2008inverse,
+  Title                    = {Inverse depth parametrization for monocular SLAM},
+  Author                   = {Civera, Javier and Davison, Andrew J and Montiel, J},
+  Journal                  = {Robotics, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {932--945},
+  Volume                   = {24},
+
+  Publisher                = {IEEE}
+}
+
+@Article{cong2005nonline,
+  Title                    = {Nonline-of-sight error mitigation in mobile location},
+  Author                   = {Cong, Li and Zhuang, Weihua},
+  Journal                  = {Wireless Communications, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {2},
+  Pages                    = {560--573},
+  Volume                   = {4},
+
+  Publisher                = {IEEE}
+}
+
+@Article{cong2002hybrid,
+  Title                    = {Hybrid TDOA/AOA mobile user location for wideband CDMA cellular systems},
+  Author                   = {Cong, Li and Zhuang, Weihua},
+  Journal                  = {Wireless Communications, IEEE Transactions on},
+  Year                     = {2002},
+  Number                   = {3},
+  Pages                    = {439--447},
+  Volume                   = {1},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{cong2001non,
+  Title                    = {Non-line-of-sight error mitigation in TDOA mobile location},
+  Author                   = {Cong, Li and Zhuang, Weihua},
+  Booktitle                = {Global Telecommunications Conference, 2001. GLOBECOM'01. IEEE},
+  Year                     = {2001},
+  Organization             = {IEEE},
+  Pages                    = {680--684},
+  Volume                   = {1}
+}
+
+@InProceedings{coronato2008towards,
+  Title                    = {Towards an implementation of Smart Hospital: a localization system for mobile users and devices},
+  Author                   = {Coronato, Antonio and Esposito, Massimo},
+  Booktitle                = {Pervasive Computing and Communications, 2008. PerCom 2008. Sixth Annual IEEE International Conference on},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {715--719}
+}
+
+@InProceedings{correal2003uwb,
+  Title                    = {An uwb relative location system},
+  Author                   = {Correal, Neiyer S and Kyperountas, Spyros and Shi, Qicai and Welborn, Matt},
+  Booktitle                = {IEEE Conference on Ultra Wideband Systems and Technologies},
+  Year                     = {2003},
+  Pages                    = {394--397}
+}
+
+@InProceedings{csorba1996new,
+  Title                    = {New approach to simultaneous localization and dynamic map building},
+  Author                   = {Csorba, Michael and Uhlmann, Jeffrey K and Durrant-Whyte, Hugh F},
+  Booktitle                = {Aerospace/Defense Sensing and Controls},
+  Year                     = {1996},
+  Organization             = {International Society for Optics and Photonics},
+  Pages                    = {26--36}
+}
+
+@Article{Dai2012,
+  Title                    = {Multi-target indoor localization and tracking on video monitoring system in a wireless sensor network},
+  Author                   = {Dai, Huan and Zhu, Zhao-Min and Gu, Xiao-Feng},
+  Journal                  = {Journal of Network and Computer Applications},
+  Year                     = {2012},
+
+  Owner                    = {k},
+  Publisher                = {Elsevier}
+}
+
+@Conference{kim12,
+  Title                    = {Optimization of the Ear Canal Position for Sound Localization Using Interaural Level Difference},
+  Author                   = {Daisuke Kimoto,Makoto Kumon},
+  Year                     = {2012},
+  Organization             = {36th Meeting of Special Interest Group on AI Challenges},
+
+  Owner                    = {KT},
+  Timestamp                = {2013.08.26}
+}
+
+@Article{danicki2006shock,
+  Title                    = {The shock wave-based acoustic sniper localization},
+  Author                   = {Danicki, E},
+  Journal                  = {Nonlinear analysis: theory, methods \& applications},
+  Year                     = {2006},
+  Number                   = {5},
+  Pages                    = {956--962},
+  Volume                   = {65},
+
+  Publisher                = {Elsevier}
+}
+
+@InProceedings{davison2004real,
+  Title                    = {Real-time 3D SLAM with wide-angle vision},
+  Author                   = {Davison, Andrew J and Cid, Y Gonz{\'a}lez and Kita, Nobuyuki},
+  Booktitle                = {Proc. IFAC/EURON Symp. Intelligent Autonomous Vehicles},
+  Year                     = {2004}
+}
+
+@Article{davison2007monoslam,
+  Title                    = {MonoSLAM: Real-time single camera SLAM},
+  Author                   = {Davison, Andrew J and Reid, Ian D and Molton, Nicholas D and Stasse, Olivier},
+  Journal                  = {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {6},
+  Pages                    = {1052--1067},
+  Volume                   = {29},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{denis2003impact,
+  Title                    = {Impact of NLOS propagation upon ranging precision in UWB systems},
+  Author                   = {Denis, B and Keignart, JK and Daniele, N},
+  Booktitle                = {Ultra Wideband Systems and Technologies, 2003 IEEE Conference on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {379--383}
+}
+
+@PhdThesis{dibiase2000high,
+  Title                    = {A high-accuracy, low-latency technique for talker localization in reverberant environments using microphone arrays},
+  Author                   = {DiBiase, Joseph Hector},
+  School                   = {Brown University},
+  Year                     = {2000}
+}
+
+@InCollection{dibiase2001robust,
+  Title                    = {Robust localization in reverberant rooms},
+  Author                   = {DiBiase, Joseph H and Silverman, Harvey F and Brandstein, Michael S},
+  Booktitle                = {Microphone Arrays},
+  Publisher                = {Springer},
+  Year                     = {2001},
+  Pages                    = {157--180}
+}
+
+@InProceedings{do2007real,
+  Title                    = {A real-time SRP-PHAT source location implementation using stochastic region contraction (SRC) on a large-aperture microphone array},
+  Author                   = {Do, Hoang and Silverman, Harvey F and Yu, Ying},
+  Booktitle                = {Acoustics, Speech and Signal Processing, 2007. ICASSP 2007. IEEE International Conference on},
+  Year                     = {2007},
+  Organization             = {IEEE},
+  Pages                    = {I--121},
+  Volume                   = {1}
+}
+
+@Article{dosso2004experimental,
+  Title                    = {Experimental validation of regularized array element localization},
+  Author                   = {Dosso, Stan E and Collison, Nicole EB and Heard, Garry J and Verrall, Ronald I},
+  Journal                  = {The Journal of the Acoustical Society of America},
+  Year                     = {2004},
+  Number                   = {5},
+  Pages                    = {2129--2137},
+  Volume                   = {115},
+
+  Publisher                = {Acoustical Society of America}
+}
+
+@Article{durrant2006simultaneous,
+  Title                    = {Simultaneous localization and mapping: part I},
+  Author                   = {Durrant-Whyte, Hugh and Bailey, Tim},
+  Journal                  = {Robotics \& Automation Magazine, IEEE},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {99--110},
+  Volume                   = {13},
+
+  Publisher                = {IEEE}
+}
+
+@Article{durrant1988uncertain,
+  Title                    = {Uncertain geometry in robotics},
+  Author                   = {Durrant-Whyte, Hugh F},
+  Journal                  = {Robotics and Automation, IEEE Journal of},
+  Year                     = {1988},
+  Number                   = {1},
+  Pages                    = {23--31},
+  Volume                   = {4},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{elnahrawy2004limits,
+  Title                    = {The limits of localization using signal strength: A comparative study},
+  Author                   = {Elnahrawy, Eiman and Li, Xiaoyan and Martin, Richard P},
+  Booktitle                = {Sensor and Ad Hoc Communications and Networks, 2004. IEEE SECON 2004. 2004 First Annual IEEE Communications Society Conference on},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {406--414}
+}
+
+@Article{evennou2006advanced,
+  Title                    = {Advanced integration of WiFi and inertial navigation systems for indoor mobile positioning},
+  Author                   = {Evennou, Fr{\'e}d{\'e}ric and Marx, Fran{\c{c}}ois},
+  Journal                  = {Eurasip journal on applied signal processing},
+  Year                     = {2006},
+  Pages                    = {164--164},
+  Volume                   = {2006},
+
+  Publisher                = {Hindawi Publishing Corp.}
+}
+
+@Article{falsi2006time,
+  Title                    = {Time of arrival estimation for UWB localizers in realistic environments},
+  Author                   = {Falsi, Chiara and Dardari, Davide and Mucchi, Lorenzo and Win, Moe Z},
+  Journal                  = {EURASIP Journal on Advances in Signal Processing},
+  Year                     = {2006},
+  Volume                   = {2006},
+
+  Publisher                = {Hindawi Publishing Corporation}
+}
+
+@InProceedings{fang2008robust,
+  Title                    = {Robust wireless LAN location fingerprinting by SVD-based noise reduction},
+  Author                   = {Fang, Shih-Hau and Lin, Tsung-Nan},
+  Booktitle                = {Communications, Control and Signal Processing, 2008. ISCCSP 2008. 3rd International Symposium on},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {295--298}
+}
+
+@Article{fang2008novel,
+  Title                    = {A novel algorithm for multipath fingerprinting in indoor WLAN environments},
+  Author                   = {Fang, Shih-Hau and Lin, Tsung-Nan and Lee, Kun-Chou},
+  Journal                  = {Wireless Communications, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {9},
+  Pages                    = {3579--3588},
+  Volume                   = {7},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{ferris2007wifi,
+  Title                    = {WiFi-SLAM Using Gaussian Process Latent Variable Models.},
+  Author                   = {Ferris, Brian and Fox, Dieter and Lawrence, Neil D},
+  Booktitle                = {IJCAI},
+  Year                     = {2007},
+  Pages                    = {2480--2485},
+  Volume                   = {7}
+}
+
+@InProceedings{ferris2006gaussian,
+  Title                    = {Gaussian processes for signal strength-based location estimation},
+  Author                   = {Ferris, Brian and Haehnel, Dirk and Fox, Dieter},
+  Booktitle                = {In Proc. of Robotics Science and Systems},
+  Year                     = {2006},
+  Organization             = {Citeseer}
+}
+
+@Article{fleming1995low,
+  Title                    = {Low-power, miniature, distributed position location and communication devices using ultra-wideband, nonsinusoidal communication technology},
+  Author                   = {Fleming, Robert and Kushner, Cherie},
+  Journal                  = {Semi-annual technical report, darpa, fbi, Aetherwire Location Inc},
+  Year                     = {1995}
+}
+
+@InProceedings{fontana2002ultra,
+  Title                    = {Ultra-wideband precision asset location system},
+  Author                   = {Fontana, Robert J and Gunderson, Steven J},
+  Booktitle                = {Ultra Wideband Systems and Technologies, 2002. Digest of Papers. 2002 IEEE Conference on},
+  Year                     = {2002},
+  Organization             = {IEEE},
+  Pages                    = {147--150}
+}
+
+@Article{foy1976position,
+  Title                    = {Position-location solutions by Taylor-series estimation},
+  Author                   = {Foy, Wade H},
+  Year                     = {1976},
+
+  Publisher                = {Aerospace and Electronic Systems, IEEE Transactions on}
+}
+
+@Article{frampton2006acoustic,
+  Title                    = {Acoustic self-localization in a distributed sensor network},
+  Author                   = {Frampton, Kenneth D},
+  Journal                  = {Sensors Journal, IEEE},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {166--172},
+  Volume                   = {6},
+
+  Publisher                = {IEEE}
+}
+
+@Article{frens1995quantitative,
+  Title                    = {A quantitative study of auditory-evoked saccadic eye movements in two dimensions},
+  Author                   = {Frens, MA and Van Opstal, AJ},
+  Journal                  = {Experimental brain research},
+  Year                     = {1995},
+  Number                   = {1},
+  Pages                    = {103--117},
+  Volume                   = {107},
+
+  Publisher                = {Springer}
+}
+
+@Conference{fur06,
+  Title                    = {Recursive Bayesian search-and-tracking using coordinated UAVs for lost targets},
+  Author                   = {Furukawa, Tomonari and Bourgault, Frederic and Lavis, Benjamin and Durrant-Whyte, Hugh F},
+  Booktitle                = {Robotics and Automation, 2006. ICRA 2006. Proceedings 2006 IEEE International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {2521--2526}
+}
+
+@Article{fur12,
+  Title                    = {Autonomous bayesian search and tracking, and its experimental validation},
+  Author                   = {Furukawa, Tomonari and Mak, Lin Chi and Durrant-Whyte, Hugh and Madhavan, Rajmohan},
+  Journal                  = {Advanced Robotics},
+  Year                     = {2012},
+  Number                   = {5-6},
+  Pages                    = {461--485},
+  Volume                   = {26},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@PhdThesis{Guvenc?2003,
+  Title                    = {Enhancements to RSS based indoor tracking systems using Kalman filters},
+  Author                   = {G{\"u}venc?, {\.I}smail},
+  School                   = {University of New Mexico},
+  Year                     = {2003},
+
+  Owner                    = {k}
+}
+
+@Article{Gao2013,
+  Title                    = {A location predicting method for indoor mobile target localization in wireless sensor networks},
+  Author                   = {Gao, Peng and Shi, Weiren and Zhou, Wei and Li, Hongbing and Wang, Xiaogang},
+  Journal                  = {International Journal of Distributed Sensor Networks},
+  Year                     = {2013},
+  Volume                   = {2013},
+
+  Publisher                = {Hindawi Publishing Corporation}
+}
+
+@InProceedings{garcia20043d,
+  Title                    = {3D simultaneous localization and modeling from stereo vision},
+  Author                   = {Garcia, Miguel Angel and Solanas, Agusti},
+  Booktitle                = {Robotics and Automation, 2004. Proceedings. ICRA'04. 2004 IEEE International Conference on},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {847--853},
+  Volume                   = {1}
+}
+
+@Article{Gezici2008,
+  Title                    = {A survey on wireless position estimation},
+  Author                   = {Gezici, Sinan},
+  Journal                  = {Wireless Personal Communications},
+  Year                     = {2008},
+  Number                   = {3},
+  Pages                    = {263--282},
+  Volume                   = {44},
+
+  Publisher                = {Springer}
+}
+
+@Article{gezici2005localization,
+  Title                    = {Localization via ultra-wideband radios: a look at positioning aspects for future sensor networks},
+  Author                   = {Gezici, Sinan and Tian, Zhi and Giannakis, Georgios B and Kobayashi, Hisashi and Molisch, Andreas F and Poor, H Vincent and Sahinoglu, Zafer},
+  Journal                  = {Signal Processing Magazine, IEEE},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {70--84},
+  Volume                   = {22},
+
+  Publisher                = {IEEE}
+}
+
+@Article{ghassemzadeh2005uwb,
+  Title                    = {UWB delay profile models for residential and commercial indoor environments},
+  Author                   = {Ghassemzadeh, Saeed S and Greenstein, Larry J and Sveinsson, Thorvardur and Kavcic, Aleksandar and Tarokh, Vahid},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {1235--1244},
+  Volume                   = {54},
+
+  Publisher                = {IEEE}
+}
+
+@Article{gill1981practical,
+  Title                    = {Practical optimization},
+  Author                   = {Gill, Philip E and Murray, Walter and Wright, Margaret H},
+  Year                     = {1981},
+
+  Publisher                = {Academic press}
+}
+
+@InProceedings{gil2006wireless,
+  Title                    = {Wireless reception signal strength for relative positioning in a vehicle robot formation},
+  Author                   = {Gil-Pinto, Arturo and Fraisse, Philippe and Zapata, Ren{\'e}},
+  Booktitle                = {Robotics Symposium, 2006. LARS'06. IEEE 3rd Latin American},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {100--105}
+}
+
+@InProceedings{girod2001robust,
+  Title                    = {Robust range estimation using acoustic and multimodal sensing},
+  Author                   = {Girod, Lewis and Estrin, Deborah},
+  Booktitle                = {Intelligent Robots and Systems, 2001. Proceedings. 2001 IEEE/RSJ International Conference on},
+  Year                     = {2001},
+  Organization             = {IEEE},
+  Pages                    = {1312--1320},
+  Volume                   = {3}
+}
+
+@Article{goedeme2007omnidirectional,
+  Title                    = {Omnidirectional vision based topological navigation},
+  Author                   = {Goedem{\'e}, Toon and Nuttin, Marnix and Tuytelaars, Tinne and Van Gool, Luc},
+  Journal                  = {International Journal of Computer Vision},
+  Year                     = {2007},
+  Number                   = {3},
+  Pages                    = {219--236},
+  Volume                   = {74},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{graefenstein2008robust,
+  Title                    = {Robust method for outdoor localization of a mobile robot using received signal strength in low power wireless networks},
+  Author                   = {Graefenstein, Juergen and Bouzouraa, Mohamed Essayed},
+  Booktitle                = {Robotics and Automation, 2008. ICRA 2008. IEEE International Conference on},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {33--38}
+}
+
+@Article{griffin1941sensory,
+  Title                    = {The sensory basis of obstacle avoidance by flying bats},
+  Author                   = {Griffin, Donald R and Galambos, Robert},
+  Journal                  = {Journal of Experimental Zoology},
+  Number                   = {3},
+  Pages                    = {481--506},
+  Volume                   = {86},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
+@Article{guivant2001optimization,
+  Title                    = {Optimization of the simultaneous localization and map-building algorithm for real-time implementation},
+  Author                   = {Guivant, Jose E and Nebot, Eduardo Mario},
+  Journal                  = {Robotics and Automation, IEEE Transactions on},
+  Year                     = {2001},
+  Number                   = {3},
+  Pages                    = {242--257},
+  Volume                   = {17},
+
+  Publisher                = {IEEE}
+}
+
+@Article{Guvenc2009,
+  Title                    = {A survey on TOA based wireless localization and NLOS mitigation techniques},
+  Author                   = {Guvenc, Ismail and Chong, Chia-Chin},
+  Journal                  = {Communications Surveys \& Tutorials, IEEE},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {107--124},
+  Volume                   = {11},
+
+  Owner                    = {k},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{guvenc2007joint,
+  Title                    = {Joint TOA estimation and localization technique for UWB sensor network applications},
+  Author                   = {Guvenc, Ismail and Chong, Chia-Chin and Watanabe, Fujio},
+  Booktitle                = {Vehicular Technology Conference, 2007. VTC2007-Spring. IEEE 65th},
+  Year                     = {2007},
+  Organization             = {IEEE},
+  Pages                    = {1574--1578}
+}
+
+@InProceedings{haeberlen2004practical,
+  Title                    = {Practical robust localization over large-scale 802.11 wireless networks},
+  Author                   = {Haeberlen, Andreas and Flannery, Eliot and Ladd, Andrew M and Rudys, Algis and Wallach, Dan S and Kavraki, Lydia E},
+  Booktitle                = {Proceedings of the 10th annual international conference on Mobile computing and networking},
+  Year                     = {2004},
+  Organization             = {ACM},
+  Pages                    = {70--84}
+}
+
+@Article{halupka2005robust,
+  Title                    = {Robust sound localization in 0.18 $\mu$m CMOS},
+  Author                   = {Halupka, David and Mathai, Nebu John and Aarabi, Parham and Sheikholeslami, Ali},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {2243--2250},
+  Volume                   = {53},
+
+  Publisher                = {IEEE}
+}
+
+@Article{heidari2008identification,
+  Title                    = {Identification of the absence of direct path in ToA-based indoor localization systems},
+  Author                   = {Heidari, Mohammad and Pahlavan, Kaveh},
+  Journal                  = {International Journal of Wireless Information Networks},
+  Year                     = {2008},
+  Number                   = {3-4},
+  Pages                    = {117--127},
+  Volume                   = {15},
+
+  Publisher                = {Springer}
+}
+
+@InCollection{hightower2004particle,
+  Title                    = {Particle filters for location estimation in ubiquitous computing: A case study},
+  Author                   = {Hightower, Jeffrey and Borriello, Gaetano},
+  Booktitle                = {UbiComp 2004: Ubiquitous Computing},
+  Publisher                = {Springer},
+  Year                     = {2004},
+  Pages                    = {88--106}
+}
+
+@Article{hofman1998relearning,
+  Title                    = {Relearning sound localization with new ears},
+  Author                   = {Hofman, Paul M and Van Riswick, Jos GA and Van Opstal, A John},
+  Journal                  = {Nature neuroscience},
+  Year                     = {1998},
+  Number                   = {5},
+  Pages                    = {417--421},
+  Volume                   = {1},
+
+  Publisher                = {Nature Publishing Group}
+}
+
+@InProceedings{hollinger2008tracking,
+  Title                    = {Tracking a moving target in cluttered environments with ranging radios},
+  Author                   = {Hollinger, Geoffrey and Djugash, Joseph and Singh, Sanjiv},
+  Booktitle                = {Robotics and Automation, 2008. ICRA 2008. IEEE International Conference on},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {1430--1435}
+}
+
+@InProceedings{hu2006location,
+  Title                    = {Location and orientation detection of mobile robots using sound field features under complex environments},
+  Author                   = {Hu, Jwu-Sheng and Liu, Wei-Han and Cheng, Chieh-Cheng and Yang, Chia-Hsing},
+  Booktitle                = {Intelligent Robots and Systems, 2006 IEEE/RSJ International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {1151--1156}
+}
+
+@InProceedings{Jwu2006,
+  Title                    = {Location and Orientation Detection of Mobile Robots Using Sound Field Features under Complex Environments},
+  Author                   = {Jwu-Sheng Hu and Wei-Han Liu and Chieh-Cheng Cheng and Chia-Hsing Yang},
+  Booktitle                = {Intelligent Robots and Systems, 2006 IEEE/RSJ International Conference on},
+  Year                     = {2006},
+  Pages                    = {1151-1156},
+
+  Doi                      = {10.1109/IROS.2006.281845},
+  Keywords                 = {Gaussian processes;acoustic signal processing;mobile robots;path planning;pose estimation;signal detection;Gaussian mixture model;mobile robots;orientation detection method;probability distribution estimation method;robot location detection;sound field features;Acoustic noise;Acoustic sensors;Infrared sensors;Intelligent robots;Microphones;Mobile robots;Noise robustness;Robot localization;Robot sensing systems;Working environment noise;GMM;Robot localization;Robot's orientation detection}
+}
+
+@Article{Huerta2009,
+  Title                    = {Joint particle filter and UKF position tracking in severe non-line-of-sight situations},
+  Author                   = {Huerta, Jose M and Vidal, Josep and Giremus, Audrey and Tourneret, J-Y},
+  Journal                  = {Selected Topics in Signal Processing, IEEE Journal of},
+  Year                     = {2009},
+  Number                   = {5},
+  Pages                    = {874--888},
+  Volume                   = {3},
+
+  Owner                    = {k},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{irahhauten2006investigation,
+  Title                    = {Investigation of UWB ranging in dense indoor multipath environments},
+  Author                   = {Irahhauten, Zoubir and Bellusci, Giovanni and Janssen, Gerard JM and Nikookar, Homayoun and Tiberius, CCJM},
+  Booktitle                = {Communication systems, 2006. ICCS 2006. 10th IEEE Singapore International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {1--5}
+}
+
+@InProceedings{Jankovic2005,
+  Title                    = {Developing a modular active spherical vision system},
+  Author                   = {Jankovic, Nicholas D and Naish, Michael D},
+  Booktitle                = {Robotics and Automation, 2005. ICRA 2005. Proceedings of the 2005 IEEE International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {1234--1239}
+}
+
+@InProceedings{jensfelt2006framework,
+  Title                    = {A framework for vision based bearing only 3D SLAM},
+  Author                   = {Jensfelt, Patric and Kragic, Danica and Folkesson, John and Bjorkman, M},
+  Booktitle                = {Robotics and Automation, 2006. ICRA 2006. Proceedings 2006 IEEE International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {1944--1950}
+}
+
+@PhdThesis{jourdan2006wireless,
+  Title                    = {Wireless sensor network planning with application to UWB localization in GPS-denied environments},
+  Author                   = {Jourdan, Damien},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {2006}
+}
+
+@InProceedings{jourdan2005monte,
+  Title                    = {Monte Carlo localization in dense multipath environments using UWB ranging},
+  Author                   = {Jourdan, D and Deyst Jr, John J and Win, Moe Z and Roy, Nicholas},
+  Booktitle                = {Ultra-Wideband, 2005. ICU 2005. 2005 IEEE International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {314--319}
+}
+
+@InProceedings{Jung2011,
+  Title                    = {Indoor localization using particle filter and map-based NLOS ranging model},
+  Author                   = {Jongdae Jung and Hyun Myung},
+  Booktitle                = {Robotics and Automation (ICRA), 2011 IEEE International Conference on},
+  Year                     = {2011},
+  Pages                    = {5185-5190},
+
+  Doi                      = {10.1109/ICRA.2011.5980383},
+  ISSN                     = {1050-4729},
+  Keywords                 = {geometry;indoor communication;mobile robots;particle filtering (numerical methods);time-of-arrival estimation;NLOS signal path estimation;indoor geometry;indoor localization;line-of-sight distances;map-based NLOS ranging model;mobile robots;nonline-of-sight range measurement;particle filter-based localization algorithm;radio frequency signals;time of arrival based localization;trilateration based localizations;Atmospheric measurements;Cascading style sheets;Distance measurement;Frequency measurement;Manganese;Nonlinear optics;Particle measurements}
+}
+
+@Article{kanatas1997utd,
+  Title                    = {A UTD propagation model in urban microcellular environments},
+  Author                   = {Kanatas, Athanasios G and Kountouris, Ioannis D and Kostaras, George B and Constantinou, Philip},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {1997},
+  Number                   = {1},
+  Pages                    = {185--193},
+  Volume                   = {46},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{kapralos2005acoustical,
+  Title                    = {Acoustical diffraction modeling utilizing the Huygens-Fresnel principle},
+  Author                   = {Kapralos, Bill and Jenkin, M and Milios, E},
+  Booktitle                = {Proceedings of the IEEE International Workshop on Haptics Audio Visual Environments and their Applications (HAVE 2005)},
+  Year                     = {2005},
+  Pages                    = {39--44}
+}
+
+@Article{kawai1981sound,
+  Title                    = {Sound diffraction by a many-sided barrier or pillar},
+  Author                   = {Kawai, T},
+  Journal                  = {Journal of Sound and Vibration},
+  Year                     = {1981},
+  Number                   = {2},
+  Pages                    = {229--242},
+  Volume                   = {79},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Khoury2009,
+  Title                    = {Evaluation of position tracking technologies for user localization in indoor construction environments},
+  Author                   = {Khoury, Hiam M and Kamat, Vineet R},
+  Journal                  = {Automation in Construction},
+  Year                     = {2009},
+  Number                   = {4},
+  Pages                    = {444--457},
+  Volume                   = {18},
+
+  Owner                    = {k},
+  Publisher                = {Elsevier}
+}
+
+@Conference{kum11,
+  Title                    = {On Sound Direction Estimation by Binaural Auditory Robots with Pinnae},
+  Author                   = {Kimoto, Daisuke and Kumon, Makoto},
+  Year                     = {2011},
+  Organization             = {35th Meeting of Special Interest Group on AI Challenges},
+
+  Owner                    = {KT},
+  Timestamp                = {2013.08.26}
+}
+
+@InCollection{kjaergaard2007taxonomy,
+  Title                    = {A taxonomy for radio location fingerprinting},
+  Author                   = {Kj{\ae}rgaard, Mikkel Baun},
+  Booktitle                = {Location-and Context-Awareness},
+  Publisher                = {Springer},
+  Year                     = {2007},
+  Pages                    = {139--156}
+}
+
+@Article{knapp1976generalized,
+  Title                    = {The generalized correlation method for estimation of time delay},
+  Author                   = {Knapp, Charles and Carter, G Clifford},
+  Journal                  = {Acoustics, Speech and Signal Processing, IEEE Transactions on},
+  Year                     = {1976},
+  Number                   = {4},
+  Pages                    = {320--327},
+  Volume                   = {24},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{kobilarov2006,
+  Title                    = {People tracking and following with mobile robot using an omnidirectional camera and a laser},
+  Author                   = {Kobilarov, Marin and Sukhatme, Gaurav and Hyams, Jeff and Batavia, Parag},
+  Booktitle                = {Robotics and Automation, 2006. ICRA 2006. Proceedings 2006 IEEE International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {557--562}
+}
+
+@Article{kouyoumjian1974uniform,
+  Title                    = {A uniform geometrical theory of diffraction for an edge in a perfectly conducting surface},
+  Author                   = {Kouyoumjian, Robert G and Pathak, Prabhakar H},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {1974},
+  Number                   = {11},
+  Pages                    = {1448--1461},
+  Volume                   = {62},
+
+  Publisher                = {IEEE}
+}
+
+@Misc{kish2012,
+  Title                    = {Human echolocation: Using tongue-clicks to navigate the world},
+
+  Author                   = {Kremer, William},
+  Note                     = {BBC},
+  Year                     = {2012},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
+@Conference{kum13,
+  Title                    = {Bayesian Non-Field-of-View Target Estimation Incorporating an Acoustic Sensor,},
+  Author                   = {Kumon, Makoto and Kimoto, Daisuke and Takami, Kuya and Furukawa, Tomonari},
+  Booktitle                = {Proceedings of 2013 IEEE/RSJ International Conference of Intelligent Robots and Systems},
+  Year                     = {2013},
+  Month                    = {November 1-3, 2013},
+
+  Owner                    = {tomonari},
+  Timestamp                = {2014.07.23}
+}
+
+@InProceedings{kumon2005audio,
+  Title                    = {Audio servo for robotic systems with pinnae},
+  Author                   = {Kumon, Makoto and Shimoda, Tomoko and Kohzawa, Ryuichi and Mizumoto, Ikuro and Iwai, Zenta},
+  Booktitle                = {Intelligent Robots and Systems, 2005.(IROS 2005). 2005 IEEE/RSJ International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {1881--1886}
+}
+
+@Article{lad04,
+  Title                    = {On the feasibility of using wireless ethernet for indoor localization},
+  Author                   = {Ladd, Andrew M and Bekris, Kostas E and Rudys, Algis P and Wallach, Dan S and Kavraki, Lydia E},
+  Journal                  = {IEEE Transactions on Robotics and Automation},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {555--559},
+  Volume                   = {20}
+}
+
+@Article{ladd2004feasibility,
+  Title                    = {On the feasibility of using wireless ethernet for indoor localization},
+  Author                   = {Ladd, Andrew M and Bekris, Kostas E and Rudys, Algis P and Wallach, Dan S and Kavraki, Lydia E},
+  Journal                  = {IEEE Transactions on Robotics and Automation},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {555--559},
+  Volume                   = {20}
+}
+
+@InProceedings{langelaan2004navigation,
+  Title                    = {Navigation of small UAVs operating in forests},
+  Author                   = {Langelaan, Jack and Rock, Steve},
+  Booktitle                = {AIAA Guidance, Navigation and Control Conference and Exhibit},
+  Year                     = {2004}
+}
+
+@Article{lavis2008dynamic,
+  Title                    = {Dynamic space reconfiguration for Bayesian search and tracking with moving targets},
+  Author                   = {Lavis, Benjamin and Furukawa, Tomonari and Whyte, Hugh F Durrant},
+  Journal                  = {Autonomous Robots},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {387--399},
+  Volume                   = {24},
+
+  Publisher                = {Springer}
+}
+
+@Article{lee2002ranging,
+  Title                    = {Ranging in a dense multipath environment using an UWB radio link},
+  Author                   = {Lee, Joon-Yong and Scholtz, Robert A},
+  Journal                  = {Selected Areas in Communications, IEEE Journal on},
+  Year                     = {2002},
+  Number                   = {9},
+  Pages                    = {1677--1683},
+  Volume                   = {20},
+
+  Publisher                = {IEEE}
+}
+
+@Article{lee2006large,
+  Title                    = {Large error performance of UWB ranging in multipath and multiuser environments},
+  Author                   = {Lee, Joon-Yong and Yoo, Sungyul},
+  Journal                  = {Microwave Theory and Techniques, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {4},
+  Pages                    = {1887--1895},
+  Volume                   = {54},
+
+  Publisher                = {IEEE}
+}
+
+@Article{lee2002activity,
+  Title                    = {Activity and location recognition using wearable sensors},
+  Author                   = {Lee, Seon-Woo and Mase, Kenji},
+  Journal                  = {IEEE pervasive computing},
+  Year                     = {2002},
+  Number                   = {3},
+  Pages                    = {24--32},
+  Volume                   = {1}
+}
+
+@InProceedings{lemaire2005practical,
+  Title                    = {A practical 3D bearing-only SLAM algorithm},
+  Author                   = {Lemaire, Thomas and Lacroix, Simon and Sola, Joan},
+  Booktitle                = {Intelligent Robots and Systems, 2005.(IROS 2005). 2005 IEEE/RSJ International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {2449--2454}
+}
+
+@InProceedings{letchner2005large,
+  Title                    = {Large-scale localization from wireless signal strength},
+  Author                   = {Letchner, Julie and Fox, Dieter and LaMarca, Anthony},
+  Booktitle                = {Proceedings of the national conference on artificial intelligence},
+  Year                     = {2005},
+  Number                   = {1},
+  Organization             = {Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999},
+  Pages                    = {15},
+  Volume                   = {20}
+}
+
+@InProceedings{li2006mobile,
+  Title                    = {Mobile station location estimation for MIMO communication systems},
+  Author                   = {Li, Ji and Conan, Jean and Pierre, Samuel},
+  Booktitle                = {Wireless Communication Systems, 2006. ISWCS'06. 3rd International Symposium on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {561--564}
+}
+
+@InProceedings{li2008experimental,
+  Title                    = {Experimental analysis on radio transmission and localization of a Zigbee-based wireless healthcare monitoring platform},
+  Author                   = {Li, Yong-Zheng and Wang, Lei and Wu, Xiao-Ming and Zhang, Yuan-Ting},
+  Booktitle                = {Information Technology and Applications in Biomedicine, 2008. ITAB 2008. International Conference on},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {488--490}
+}
+
+@Article{lim2005zero,
+  Title                    = {Zero-configuration, robust indoor localization: Theory and experimentation},
+  Author                   = {Lim, Hyuk and Kung, Lu-Chuan and Hou, Jennifer C and Luo, Haiyun},
+  Year                     = {2005}
+}
+
+@Article{lin2007mobile,
+  Title                    = {Mobile location estimation using density-based clustering technique for NLoS environments},
+  Author                   = {Lin, Cha-Hwa and Cheng, Juin-Yi and Wu, Chien-Nan},
+  Journal                  = {Cluster Computing},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {3--16},
+  Volume                   = {10},
+
+  Publisher                = {Springer}
+}
+
+@Article{Liu2007,
+  Title                    = {Survey of Wireless Indoor Positioning Techniques and Systems},
+  Author                   = {Hui Liu and Darabi, H. and Banerjee, P. and Jing Liu},
+  Journal                  = {Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {6},
+  Pages                    = {1067-1080},
+  Volume                   = {37},
+
+  Doi                      = {10.1109/TSMCC.2007.905750},
+  ISSN                     = {1094-6977},
+  Keywords                 = {indoor radio;radiowave propagation;location fingerprinting;wireless indoor positioning technique;Automation;Costs;Fingerprint recognition;Image analysis;Inventory management;Object detection;Radio frequency;Robustness;Scalability;Wireless sensor networks;Indoor location sensing;location fingerprinting;positioning algorithm;radio frequency (RF);wireless localization}
+}
+
+@Article{Liu2009,
+  Title                    = {Target tracking with line-of-sight identification in sensor networks under unknown measurement noises},
+  Author                   = {Liu, Hong-Qing and So, Hing-Cheung},
+  Journal                  = {Progress In Electromagnetics Research},
+  Year                     = {2009},
+  Pages                    = {373--389},
+  Volume                   = {97},
+
+  Owner                    = {k},
+  Publisher                = {EMW Publishing}
+}
+
+@InProceedings{liu2003toa,
+  Title                    = {A TOA reconstruction method based on ring of scatterers model},
+  Author                   = {Liu, Lin and Deng, Ping and Fan, Pingzhi},
+  Booktitle                = {Parallel and Distributed Computing, Applications and Technologies, 2003. PDCAT'2003. Proceedings of the Fourth International Conference on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {375--377}
+}
+
+@Article{low2005pulse,
+  Title                    = {Pulse detection algorithm for line-of-sight (LOS) UWB ranging applications},
+  Author                   = {Low, ZN and Cheong, JH and Law, CL and Ng, WT and Lee, YJ},
+  Journal                  = {Antennas and Wireless Propagation Letters, IEEE},
+  Year                     = {2005},
+  Pages                    = {63--67},
+  Volume                   = {4},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{madigan2005bayesian,
+  Title                    = {Bayesian indoor positioning systems},
+  Author                   = {Madigan, David and Einahrawy, E and Martin, Richard P and Ju, W-H and Krishnan, Parameshwaran and Krishnakumar, AS},
+  Booktitle                = {INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies. Proceedings IEEE},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {1217--1227},
+  Volume                   = {2}
+}
+
+@InProceedings{Mak2009,
+  Title                    = {Non-Line-of-Sight localization of a controlled sound source},
+  Author                   = {Mak, Lin C and Furukawa, Tomonari},
+  Booktitle                = {Advanced Intelligent Mechatronics, 2009. AIM 2009. IEEE/ASME International Conference on},
+  Year                     = {2009},
+  Organization             = {IEEE},
+  Pages                    = {475--480}
+}
+
+@InProceedings{mak20076,
+  Title                    = {A 6 DoF visual tracking system for a miniature helicopter},
+  Author                   = {Mak, Lin Chi and Furukawa, Tomonari},
+  Booktitle                = {2nd International Conference on Sensing Technology (ICST)},
+  Year                     = {2007},
+  Pages                    = {32--37}
+}
+
+@Article{mak2009design,
+  Title                    = {Design and development of micro aerial vehicles and their cooperative systems for target search and tracking},
+  Author                   = {Mak, Lin Chi and Kumon, Makoto and Whitty, Mark and Katupitiya, Jayantha and Furukawa, Tomonari},
+  Journal                  = {International Journal of Micro Air Vehicles},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {139--153},
+  Volume                   = {1},
+
+  Publisher                = {Multi-Science}
+}
+
+@Article{mak2008design,
+  Title                    = {Design and development of the micro aerial vehicles for search, tracking and reconnaissance (MAVSTAR) for MAV08},
+  Author                   = {Mak, Lin Chi and Kumon, Makoto and Whitty, Mark and Nicoletti, Moises and Xu, Hang and Zhan, Kai and Kalkbrenner, Gabriel and Abril, Guillermo Caceres and Atkins, Daniel and Chare, Christopher and others},
+  Journal                  = {1st US-Asian demonstration and assessment of micro-aerial and unmanned ground vehicle technology (MAV08)},
+  Year                     = {2008}
+}
+
+@Article{mak2008localisation,
+  Title                    = {A localisation system for an indoor rotary-wing MAV using blade mounted LEDs},
+  Author                   = {Mak, Lin Chi and Whitty, Mark and Furukawa, Tomonari},
+  Journal                  = {Sensor Review},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {125--131},
+  Volume                   = {28},
+
+  Publisher                = {Emerald Group Publishing Limited}
+}
+
+@InBook{mau03,
+  Title                    = {Recent Developments in Cooperative Control and Optimizatio},
+  Author                   = {Mauler, R.},
+  Chapter                  = {Objective Functions for Bayesian Control-Theoretic Sensor Management, II: MHC-Like Approximation},
+  Editor                   = {S. Butenko, R. Murphey and P. Pardalos},
+  Pages                    = {273-316},
+  Publisher                = {Kluwer Academic Publishers, Norwell, MA},
+  Year                     = {2003},
+
+  Owner                    = {tomonari},
+  Timestamp                = {2014.07.22}
+}
+
+@Article{medwin1981shadowing,
+  Title                    = {Shadowing by finite noise barriers},
+  Author                   = {Medwin, H},
+  Journal                  = {The Journal of the Acoustical Society of America},
+  Year                     = {1981},
+  Number                   = {4},
+  Pages                    = {1060--1064},
+  Volume                   = {69},
+
+  Abstract                 = {A technique is described for calculating the acoustical shadowing due to finite barriers. The method is an extension of the Biot–Tolstoy rigorous closed form impulse solution for diffraction of point source radiation by an infinite rigid wedge. By discrete Fourier transformation,spectral predictions are obtained which are closer to experimental results than previous schemes for infinite barriers. Furthermore, the limitations of the Kirchhoff Assumption are avoided, so that accurate predictions can be made for complicated finite barriers. Comparisons of theory and experiment are shown.},
+  Keywords                 = {Diffraction},
+  Publisher                = {Acoustical Society of America}
+}
+
+@Article{miao2007positioning,
+  Title                    = {Positioning for NLOS propagation: algorithm derivations and Cramer--Rao bounds},
+  Author                   = {Miao, Honglei and Yu, Kegen and Juntti, Markku J},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {5},
+  Pages                    = {2568--2580},
+  Volume                   = {56},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{montesano2005modeling,
+  Title                    = {Modeling the static and the dynamic parts of the environment to improve sensor-based navigation},
+  Author                   = {Montesano, Luis and Minguez, Javier and Montano, Luis},
+  Booktitle                = {Robotics and Automation, 2005. ICRA 2005. Proceedings of the 2005 IEEE International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {4556--4562}
+}
+
+@Article{Morelli2007,
+  Title                    = {Hidden Markov models for radio localization in mixed LOS/NLOS conditions},
+  Author                   = {Morelli, Carlo and Nicoli, Monica and Rampa, Vittorio and Spagnolini, Umberto},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {1525--1542},
+  Volume                   = {55},
+
+  Owner                    = {k},
+  Publisher                = {IEEE}
+}
+
+@Article{morelli2007hidden,
+  Title                    = {Hidden Markov models for radio localization in mixed LOS/NLOS conditions},
+  Author                   = {Morelli, Carlo and Nicoli, Monica and Rampa, Vittorio and Spagnolini, Umberto},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {1525--1542},
+  Volume                   = {55},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{mountarlier1989stochastic,
+  Title                    = {Stochastic multi-sensory data fusion for mobile robot location and environmental modeling},
+  Author                   = {Mountarlier, P and Chatila, R},
+  Booktitle                = {Fifth Int Symp. Robot. Res. Tokyo, Japan},
+  Year                     = {1989},
+  Pages                    = {85--94}
+}
+
+@Article{mumolo2003algorithms,
+  Title                    = {Algorithms for acoustic localization based on microphone array in service robotics},
+  Author                   = {Mumolo, Enzo and Nolich, Massimiliano and Vercelli, Gianni},
+  Journal                  = {Robotics and Autonomous systems},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {69--88},
+  Volume                   = {42},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{murphy1995determination,
+  Title                    = {Determination of a position in three dimensions using trilateration and approximate distances},
+  Author                   = {Murphy, W and Hereman, Willy},
+  Journal                  = {Department of Mathematical and Computer Sciences, Colorado School of Mines, Golden, Colorado, MCS-95-07},
+  Year                     = {1995},
+  Volume                   = {19}
+}
+
+@InProceedings{nag2002ultrawideband,
+  Title                    = {Ultrawideband through-wall radar for detecting the motion of people in real time},
+  Author                   = {Nag, Soumya and Barnes, Mark A and Payment, Tim and Holladay, Gary},
+  Booktitle                = {AeroSense 2002},
+  Year                     = {2002},
+  Organization             = {International Society for Optics and Photonics},
+  Pages                    = {48--57}
+}
+
+@InProceedings{nayar1997,
+  Title                    = {Catadioptric omnidirectional camera},
+  Author                   = {Nayar, Shree K},
+  Booktitle                = {Computer Vision and Pattern Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on},
+  Year                     = {1997},
+  Organization             = {IEEE},
+  Pages                    = {482--488}
+}
+
+@Article{nerguizian2006geolocation,
+  Title                    = {Geolocation in mines with an impulse response fingerprinting technique and neural networks},
+  Author                   = {Nerguizian, Chah{\'e} and Despins, Charles and Aff{\`e}s, Sofi{\`e}ne},
+  Journal                  = {Wireless Communications, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {603--611},
+  Volume                   = {5},
+
+  Publisher                = {IEEE}
+}
+
+@Article{Ni2004,
+  Title                    = {LANDMARC: indoor location sensing using active RFID},
+  Author                   = {Ni, Lionel M and Liu, Yunhao and Lau, Yiu Cho and Patil, Abhishek P},
+  Journal                  = {Wireless networks},
+  Year                     = {2004},
+  Number                   = {6},
+  Pages                    = {701--710},
+  Volume                   = {10},
+
+  Publisher                = {Springer}
+}
+
+@Article{nicoli2008jump,
+  Title                    = {A jump Markov particle filter for localization of moving terminals in multipath indoor scenarios},
+  Author                   = {Nicoli, Monica and Morelli, Carlo and Rampa, Vittorio},
+  Journal                  = {Signal Processing, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {8},
+  Pages                    = {3801--3809},
+  Volume                   = {56},
+
+  Publisher                = {IEEE}
+}
+
+@Conference{nod12,
+  Title                    = {Sound Source Direction Estimation in the Median Plane by Two Active Pinnae},
+  Author                   = {Noda, Y. and Kumon, Makoto},
+  Year                     = {2012},
+  Organization             = {13th SICE System Integration Division Annual Conference},
+
+  Owner                    = {KT},
+  Timestamp                = {2013.08.26}
+}
+
+@InProceedings{omologo1994acoustic,
+  Title                    = {Acoustic event localization using a crosspower-spectrum phase based technique},
+  Author                   = {Omologo, Maurizio and Svaizer, Piergiorgio},
+  Booktitle                = {Acoustics, Speech, and Signal Processing, 1994. ICASSP-94., 1994 IEEE International Conference on},
+  Year                     = {1994},
+  Organization             = {IEEE},
+  Pages                    = {II--273},
+  Volume                   = {2}
+}
+
+@Book{oppermann2005uwb,
+  Title                    = {UWB: theory and applications},
+  Author                   = {Oppermann, Ian and H{\"a}m{\"a}l{\"a}inen, Matti and Iinatti, Jari},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2005}
+}
+
+@Article{pan2006multidimensional,
+  Title                    = {Multidimensional vector regression for accurate and low-cost location estimation in pervasive computing},
+  Author                   = {Pan, Jeffrey Junfeng and Kwok, James T and Yang, Qiang and Chen, Yiqiang},
+  Journal                  = {Knowledge and Data Engineering, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {9},
+  Pages                    = {1181--1193},
+  Volume                   = {18},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{pan2007adaptive,
+  Title                    = {Adaptive Localization in a Dynamic WiFi Environment through Multi-view Learning.},
+  Author                   = {Pan, Sinno Jialin and Kwok, James T and Yang, Qiang and Pan, Jeffrey Junfeng},
+  Booktitle                = {Proceedings of the national conference on artificial Intelligence},
+  Year                     = {2007},
+  Number                   = {2},
+  Organization             = {Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999},
+  Pages                    = {1108},
+  Volume                   = {22}
+}
+
+@Article{patwari2005locating,
+  Title                    = {Locating the nodes: cooperative localization in wireless sensor networks},
+  Author                   = {Patwari, Neal and Ash, Joshua N and Kyperountas, Spyros and Hero, Alfred O and Moses, Randolph L and Correal, Neiyer S},
+  Journal                  = {Signal Processing Magazine, IEEE},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {54--69},
+  Volume                   = {22},
+
+  Publisher                = {IEEE}
+}
+
+@Article{paz2008large,
+  Title                    = {Large-scale 6-DOF SLAM with stereo-in-hand},
+  Author                   = {Paz, Lina M and Pini{\'e}s, Pedro and Tard{\'o}s, Juan D and Neira, Jos{\'e}},
+  Journal                  = {Robotics, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {946--957},
+  Volume                   = {24},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{perera2005data,
+  Title                    = {Data association in dynamic environments using a sliding window of temporal measurement frames},
+  Author                   = {Perera, LD Lochana and Wijesoma, Wijerupage Sardha and Adams, Martin David},
+  Booktitle                = {Intelligent Robots and Systems, 2005.(IROS 2005). 2005 IEEE/RSJ International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {753--758}
+}
+
+@PhdThesis{Prigge2004,
+  Title                    = {A positioning system with no line-of-sight restrictions for cluttered environments},
+  Author                   = {Prigge, Eric A},
+  School                   = {Stanford University},
+  Year                     = {2004},
+
+  Owner                    = {k}
+}
+
+@Article{pulkki1997,
+  Title                    = {Virtual Sound Source Positioning Using Vector Base Amplitude Panning},
+  Author                   = {Pulkki, Ville},
+  Journal                  = {Journal of Audio Engineering Society},
+  Year                     = {1997},
+
+  Month                    = {June},
+  Number                   = {6},
+  Pages                    = {456-466},
+  Volume                   = {45},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.10}
+}
+
+@InProceedings{pupilli2005real,
+  Title                    = {Real-Time Camera Tracking Using a Particle Filter.},
+  Author                   = {Pupilli, Mark and Calway, Andrew},
+  Booktitle                = {BMVC},
+  Year                     = {2005}
+}
+
+@Article{qi2006time,
+  Title                    = {On time-of-arrival positioning in a multipath environment},
+  Author                   = {Qi, Yihong and Kobayashi, Hisashi and Suda, Hirohito},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2006},
+  Number                   = {5},
+  Pages                    = {1516--1526},
+  Volume                   = {55},
+
+  Publisher                = {IEEE}
+}
+
+@Conference{rib05,
+  Title                    = {A Non-Line-of-Sight Mitigation Technique Based on ML-detection},
+  Author                   = {Riba, J. and Urruela, A.},
+  Booktitle                = {Proceedings of IEEE International Conference on Acoustic, Speech and Signal Processing},
+  Year                     = {2005},
+  Month                    = {May},
+  Pages                    = {153-156},
+  Volume                   = {2},
+
+  Owner                    = {tomonari},
+  Timestamp                = {2014.07.23}
+}
+
+@InProceedings{robinson2005received,
+  Title                    = {Received signal strength based location estimation of a wireless LAN client},
+  Author                   = {Robinson, Michael and Psaromiligkos, Ioannis},
+  Booktitle                = {Wireless Communications and Networking Conference, 2005 IEEE},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {2350--2354},
+  Volume                   = {4}
+}
+
+@InProceedings{rosencrantz2002decentralized,
+  Title                    = {Decentralized sensor fusion with distributed particle filters},
+  Author                   = {Rosencrantz, Matt and Gordon, Geoffrey and Thrun, Sebastian},
+  Booktitle                = {Proceedings of the Nineteenth conference on Uncertainty in Artificial Intelligence},
+  Year                     = {2002},
+  Organization             = {Morgan Kaufmann Publishers Inc.},
+  Pages                    = {493--500}
+}
+
+@InProceedings{roumeliotis1997extended,
+  Title                    = {Extended Kalman filter for frequent local and infrequent global sensor data fusion},
+  Author                   = {Roumeliotis, Stergios I and Bekey, George A},
+  Booktitle                = {Intelligent Systems \& Advanced Manufacturing},
+  Year                     = {1997},
+  Organization             = {International Society for Optics and Photonics},
+  Pages                    = {11--22}
+}
+
+@InProceedings{kunjin2011,
+  Title                    = {Frontier-based Semi-Autonomous Remote Navigation System Using LRF},
+  Author                   = {Ryu, Kunjin and Furukawa, Tomonari},
+  Booktitle                = {International Conference on Intelligent Unmanned Systems 2011},
+  Year                     = {2011},
+  Month                    = {October},
+  Pages                    = {6 pages},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
+@InProceedings{kunjin2013,
+  Title                    = {Grid-based Scan-to-Map Matching for Accurate Simultaneous Localization and Mapping - Theory and Preliminary Numerical Study},
+  Author                   = {Ryu, Kunjin, Furukawa, Tomonari, Antol, Stanislaw and Dissanayake, Gamini},
+  Booktitle                = {Proceedings of the ASME 2013 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},
+  Year                     = {2013},
+  Month                    = {August},
+  Pages                    = {10 pages},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
+@InProceedings{saffiotti2005peis,
+  Title                    = {PEIS ecologies: Ambient intelligence meets autonomous robotics},
+  Author                   = {Saffiotti, Alessandro and Broxvall, Mathias},
+  Booktitle                = {Proceedings of the 2005 joint conference on Smart objects and ambient intelligence: innovative context-aware services: usages and technologies},
+  Year                     = {2005},
+  Organization             = {ACM},
+  Pages                    = {277--281}
+}
+
+@InProceedings{saripalli2002vision,
+  Title                    = {Vision-based autonomous landing of an unmanned aerial vehicle},
+  Author                   = {Saripalli, Srikanth and Montgomery, James F and Sukhatme, Gaurav},
+  Booktitle                = {Robotics and automation, 2002. Proceedings. ICRA'02. IEEE international conference on},
+  Year                     = {2002},
+  Organization             = {IEEE},
+  Pages                    = {2799--2804},
+  Volume                   = {3}
+}
+
+@InProceedings{sasaki2006multiple,
+  Title                    = {Multiple sound source mapping for a mobile robot by self-motion triangulation},
+  Author                   = {Sasaki, Yoko and Kagami, Satoshi and Mizoguchi, Hiroshi},
+  Booktitle                = {Intelligent Robots and Systems, 2006 IEEE/RSJ International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {380--385}
+}
+
+@InProceedings{sasiadek2000sensor,
+  Title                    = {Sensor data fusion using Kalman filter},
+  Author                   = {Sasiadek, JZ and Hartana, P},
+  Booktitle                = {Information Fusion, 2000. FUSION 2000. Proceedings of the Third International Conference on},
+  Year                     = {2000},
+  Organization             = {IEEE},
+  Pages                    = {WED5--19},
+  Volume                   = {2}
+}
+
+@InProceedings{savvides2001dynamic,
+  Title                    = {Dynamic fine-grained localization in ad-hoc networks of sensors},
+  Author                   = {Savvides, Andreas and Han, Chih-Chieh and Strivastava, Mani B},
+  Booktitle                = {Proceedings of the 7th annual international conference on Mobile computing and networking},
+  Year                     = {2001},
+  Organization             = {ACM},
+  Pages                    = {166--179}
+}
+
+@InProceedings{saxena2009learning,
+  Title                    = {Learning sound location from a single microphone},
+  Author                   = {Saxena, Ashutosh and Ng, Andrew Y},
+  Booktitle                = {Robotics and Automation, 2009. ICRA'09. IEEE International Conference on},
+  Year                     = {2009},
+  Organization             = {IEEE},
+  Pages                    = {1737--1742}
+}
+
+@Article{sayed2005network,
+  Title                    = {Network-based wireless location: challenges faced in developing techniques for accurate wireless location information},
+  Author                   = {Sayed, Ali H and Tarighat, Alireza and Khajehnouri, Nima},
+  Journal                  = {Signal Processing Magazine, IEEE},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {24--40},
+  Volume                   = {22},
+
+  Publisher                = {IEEE}
+}
+
+@Article{schmidt1972new,
+  Title                    = {A new approach to geometry of range difference location},
+  Author                   = {Schmidt, Ralph O},
+  Year                     = {1972},
+
+  Publisher                = {Aerospace and Electronic Systems, IEEE Transactions on}
+}
+
+@InProceedings{sederberg2003,
+  Title                    = {T-splines and T-NURCCs},
+  Author                   = {Sederberg, Thomas W and Zheng, Jianmin and Bakenov, Almaz and Nasri, Ahmad},
+  Booktitle                = {ACM transactions on graphics (TOG)},
+  Year                     = {2003},
+  Number                   = {3},
+  Organization             = {ACM},
+  Pages                    = {477--484},
+  Volume                   = {22}
+}
+
+@Article{Seow2008a,
+  Title                    = {Non-line-of-sight unidirectional mobile localisation in multipath environment},
+  Author                   = {Seow, CK and Tan, SY},
+  Journal                  = {Electronics Letters},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {141--143},
+  Volume                   = {44},
+
+  Publisher                = {IET}
+}
+
+@Article{Seow2008,
+  Title                    = {Non-line-of-sight localization in multipath environments},
+  Author                   = {Seow, Chee Kiat and Tan, Soon Yim},
+  Journal                  = {Mobile Computing, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {647--660},
+  Volume                   = {7},
+
+  Owner                    = {k},
+  Publisher                = {IEEE}
+}
+
+@Article{seow2008non,
+  Title                    = {Non-line-of-sight localization in multipath environments},
+  Author                   = {Seow, Chee Kiat and Tan, Soon Yim},
+  Journal                  = {Mobile Computing, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {647--660},
+  Volume                   = {7},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{seshadri2005bayesian,
+  Title                    = {A bayesian sampling approach to in-door localization of wireless devices using received signal strength indication},
+  Author                   = {Seshadri, Vinay and Zaruba, Gergely V and Huber, Manfred},
+  Booktitle                = {Pervasive Computing and Communications, 2005. PerCom 2005. Third IEEE International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {75--84}
+}
+
+@InProceedings{shimoda2006spectral,
+  Title                    = {Spectral cues for robust sound localization with pinnae},
+  Author                   = {Shimoda, Tomoko and Nakashima, Toru and Kumon, Makoto and Kohzawa, Ryuichi and Mizumoto, Ikuro and Iwai, Zenta},
+  Booktitle                = {Intelligent Robots and Systems, 2006 IEEE/RSJ International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {386--391}
+}
+
+@InProceedings{shkarayev2007aerodynamic,
+  Title                    = {Aerodynamic design of VTOL micro air vehicles},
+  Author                   = {Shkarayev, Sergey and Moschetta, Jean-Marc and Bataille, Boris},
+  Booktitle                = {Proc. of the MAV07 International Conference, France},
+  Year                     = {2007}
+}
+
+@Article{silverman2005performance,
+  Title                    = {Performance of real-time source-location estimators for a large-aperture microphone array},
+  Author                   = {Silverman, Harvey F and Yu, Ying and Sachar, Joshua M and Patterson, William R and others},
+  Journal                  = {Speech and Audio Processing, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {593--606},
+  Volume                   = {13},
+
+  Publisher                = {IEEE}
+}
+
+@Article{small1973vented,
+  Title                    = {Vented-Box Loudspeaker Systems--Part 1: Small-Signal Analysis},
+  Author                   = {Small, Richard H},
+  Journal                  = {Journal of the Audio Engineering Society},
+  Year                     = {1973},
+  Number                   = {5},
+  Pages                    = {363--372},
+  Volume                   = {21},
+
+  Publisher                = {Audio Engineering Society}
+}
+
+@Article{smith1987closed,
+  Title                    = {closed-form. least-squares source location estimation from range-difference measurements},
+  Author                   = {Smith, J Abel and others},
+  Year                     = {1987},
+
+  Publisher                = {Acoustics, Speech and Signal Processing, IEEE Transactions on}
+}
+
+@InProceedings{smith2006real,
+  Title                    = {Real-Time Monocular SLAM with Straight Lines.},
+  Author                   = {Smith, Paul and Reid, Ian D and Davison, Andrew J},
+  Booktitle                = {BMVC},
+  Year                     = {2006},
+  Pages                    = {17--26},
+  Volume                   = {6}
+}
+
+@InCollection{smith1990estimating,
+  Title                    = {Estimating uncertain spatial relationships in robotics},
+  Author                   = {Smith, Randall and Self, Matthew and Cheeseman, Peter},
+  Booktitle                = {Autonomous robot vehicles},
+  Publisher                = {Springer},
+  Year                     = {1990},
+  Pages                    = {167--193}
+}
+
+@Article{smith1986representation,
+  Title                    = {On the representation and estimation of spatial uncertainty},
+  Author                   = {Smith, Randall C and Cheeseman, Peter},
+  Journal                  = {The international journal of Robotics Research},
+  Year                     = {1986},
+  Number                   = {4},
+  Pages                    = {56--68},
+  Volume                   = {5},
+
+  Publisher                = {Sage Publications}
+}
+
+@InProceedings{stasse2006real,
+  Title                    = {Real-time 3d slam for humanoid robot considering pattern generator information},
+  Author                   = {Stasse, Olivier and Davison, Andrew J and Sellaouti, Ramzi and Yokoi, Kazuhito},
+  Booktitle                = {Intelligent Robots and Systems, 2006 IEEE/RSJ International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {348--355}
+}
+
+@Article{steiner2008ultra,
+  Title                    = {Ultra-wideband geo-regioning: A novel clustering and localization technique},
+  Author                   = {Steiner, Christoph and Althaus, Frank and Troesch, Florian and Wittneben, Armin},
+  Journal                  = {EURASIP Journal on Advances in Signal Processing},
+  Year                     = {2008},
+  Pages                    = {84},
+  Volume                   = {2008},
+
+  Publisher                = {Hindawi Publishing Corp.}
+}
+
+@Article{storer1994shortest,
+  Title                    = {Shortest paths in the plane with polygonal obstacles},
+  Author                   = {Storer, James A and Reif, John H},
+  Journal                  = {Journal of the ACM (JACM)},
+  Year                     = {1994},
+  Number                   = {5},
+  Pages                    = {982--1012},
+  Volume                   = {41},
+
+  Publisher                = {ACM}
+}
+
+@Article{sukkarieh1999high,
+  Title                    = {A high integrity IMU/GPS navigation loop for autonomous land vehicle applications},
+  Author                   = {Sukkarieh, Salah and Nebot, Eduardo Mario and Durrant-Whyte, Hugh F},
+  Journal                  = {Robotics and Automation, IEEE Transactions on},
+  Year                     = {1999},
+  Number                   = {3},
+  Pages                    = {572--578},
+  Volume                   = {15},
+
+  Publisher                = {IEEE}
+}
+
+@Article{sun2005signal,
+  Title                    = {Signal processing techniques in network-aided positioning: a survey of state-of-the-art positioning designs},
+  Author                   = {Sun, Guolin and Chen, Jie and Guo, Wei and Liu, KJ Ray},
+  Journal                  = {Signal Processing Magazine, IEEE},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {12--23},
+  Volume                   = {22},
+
+  Publisher                = {IEEE}
+}
+
+@Conference{sva12,
+  Title                    = {Environment aware estimation of the orientation of acoustic sources using a line array},
+  Author                   = {Svaizer, Piergiorgio and Brutti, Alessio and Omologo, Maurizio},
+  Booktitle                = {Signal Processing Conference (EUSIPCO), 2012 Proceedings of the 20th European},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {1024--1028}
+}
+
+@Article{takami15IJRR,
+  Title                    = {Acoustic Estimation of Nonvisible Target in Complex Indoor Environments},
+  Author                   = {Takami, K., Furukawa, T., Kumon, M. and Dissanayake, G.},
+  Journal                  = {International Journal for Robotics Research},
+  Year                     = {Submitted January 2015},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.11}
+}
+
+@Article{takami15autonomousrobots,
+  Title                    = {Estimation of a Nonvisible Field-of-View Mobile Target Incoorperating Optical and Acoustic Sensors},
+  Author                   = {Takami, Kuya, Furukawa, Tomonari, Kumon, Mako and Dissanayake, Gamini},
+  Journal                  = {Autonomous Robots},
+  Year                     = {Submitted October 2014},
+
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.11}
+}
+
+@Conference{takanishi1993,
+  Title                    = {Study on anthropomorphic auditory robot continuous localization of a sound source in horizontal plane,},
+  Author                   = {Takanishi, A. and Masukawa, S. and Mori, Y. and Ogawa, T.},
+  Year                     = {1993},
+  Organization             = {11th Annual Conference of the Robotics Society of Japan},
+  Pages                    = {793-796},
+
+  Owner                    = {Kuya},
+  Timestamp                = {2015.01.12}
+}
+
+@Article{thiele1971loudspeakers,
+  Title                    = {Loudspeakers in vented boxes: Part 1},
+  Author                   = {Thiele, Neville},
+  Journal                  = {Journal of the Audio Engineering Society},
+  Year                     = {1971},
+  Number                   = {5},
+  Pages                    = {382--392},
+  Volume                   = {19},
+
+  Publisher                = {Audio Engineering Society}
+}
+
+@Article{thomas2001calculation,
+  Title                    = {Calculation of mobile location using scatterer information},
+  Author                   = {Thomas, NJ and Cruickshank, DGM and Laurenson, DI},
+  Journal                  = {Electronics Letters},
+  Year                     = {2001},
+  Number                   = {19},
+  Pages                    = {1193--1194},
+  Volume                   = {37},
+
+  Publisher                = {IET}
+}
+
+@InProceedings{tisse2005micro,
+  Title                    = {A micro aerial vehicle motion capture system},
+  Author                   = {Tisse, Christel-loic and Fauvel, Thomas and Durrant-Whyte, Hugh},
+  Booktitle                = {Proc. 1st Int. Conf. on Sensing Technology},
+  Year                     = {2005},
+  Organization             = {Citeseer},
+  Pages                    = {533--530}
+}
+
+@PhdThesis{valin2005auditory,
+  Title                    = {Auditory system for a mobile robot},
+  Author                   = {Valin, Jean-Marc},
+  School                   = {Universit{\'e} de Sherbrooke.},
+  Year                     = {2005}
+}
+
+@InProceedings{valin2004localization,
+  Title                    = {Localization of simultaneous moving sound sources for mobile robot using a frequency-domain steered beamformer approach},
+  Author                   = {Valin, Jean-Marc and Michaud, Fran{\c{c}}ois and Hadjou, Brahim and Rouat, Jean},
+  Booktitle                = {Robotics and Automation, 2004. Proceedings. ICRA'04. 2004 IEEE International Conference on},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {1033--1038},
+  Volume                   = {1}
+}
+
+@Article{valin2007robust,
+  Title                    = {Robust localization and tracking of simultaneous moving sound sources using beamforming and particle filtering},
+  Author                   = {Valin, Jean-Marc and Michaud, Fran{\c{c}}ois and Rouat, Jean},
+  Journal                  = {Robotics and Autonomous Systems},
+  Year                     = {2007},
+  Number                   = {3},
+  Pages                    = {216--228},
+  Volume                   = {55},
+
+  Publisher                = {Elsevier}
+}
+
+@InProceedings{valin2006robust,
+  Title                    = {Robust 3D localization and tracking of sound sources using beamforming and particle filtering},
+  Author                   = {Valin, Jean-Marc and Michaud, Fran{\c{c}}ois and Rouat, Jean},
+  Booktitle                = {Acoustics, Speech and Signal Processing, 2006. ICASSP 2006 Proceedings. 2006 IEEE International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {IV--IV},
+  Volume                   = {4}
+}
+
+@InProceedings{valin2003robust,
+  Title                    = {Robust sound source localization using a microphone array on a mobile robot},
+  Author                   = {Valin, Jean-Marc and Michaud, Fran{\c{c}}ois and Rouat, Jean and L{\'e}tourneau, Dominic},
+  Booktitle                = {Intelligent Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {1228--1233},
+  Volume                   = {2}
+}
+
+@InProceedings{venkatraman2004hybrid,
+  Title                    = {Hybrid TOA/AOA techniques for mobile location in non-line-of-sight environments},
+  Author                   = {Venkatraman, Saipradeep and Caffery, James},
+  Booktitle                = {Wireless Communications and Networking Conference, 2004. WCNC. 2004 IEEE},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {274--278},
+  Volume                   = {1}
+}
+
+@InProceedings{venkatraman2002statistical,
+  Title                    = {Statistical approach to non-line-of-sight BS identification},
+  Author                   = {Venkatraman, Sauoradeep and Caffery, Jr},
+  Booktitle                = {Wireless Personal Multimedia Communications, 2002. The 5th International Symposium on},
+  Year                     = {2002},
+  Organization             = {IEEE},
+  Pages                    = {296--300},
+  Volume                   = {1}
+}
+
+@Article{venkatraman2004novel,
+  Title                    = {A novel TOA location algorithm using LOS range estimation for NLOS environments},
+  Author                   = {Venkatraman, Saipradeep and Caffery, James and You, Heung-Ryeol},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2004},
+  Number                   = {5},
+  Pages                    = {1515--1524},
+  Volume                   = {53},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{wang2003online,
+  Title                    = {Online simultaneous localization and mapping with detection and tracking of moving objects: Theory and results from a ground vehicle in crowded urban areas},
+  Author                   = {Wang, Chieh-Chih and Thorpe, Charles and Thrun, Sebastian},
+  Booktitle                = {Robotics and Automation, 2003. Proceedings. ICRA'03. IEEE International Conference on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {842--849},
+  Volume                   = {1}
+}
+
+@Article{Wang2012,
+  Title                    = {Toward Robust Indoor Localization Based on Bayesian Filter Using Chirp-Spread-Spectrum Ranging},
+  Author                   = {Jie Wang and Qinghua Gao and Yan Yu and Hongyu Wang and Minglu Jin},
+  Journal                  = {Industrial Electronics, IEEE Transactions on},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {1622-1629},
+  Volume                   = {59},
+
+  Doi                      = {10.1109/TIE.2011.2165462},
+  ISSN                     = {0278-0046},
+  Keywords                 = {Bayes methods;Markov processes;indoor communication;particle filtering (numerical methods);personal area networks;spread spectrum communication;state estimation;Bayesian filter;IEEE 802.15.4a;Markov model;NLOS state estimation;chirp-spread-spectrum ranging;joint-state estimation localization algorithm;nonline-of-sight;particle filter;robust indoor localization algorithm;Atmospheric measurements;Manganese;Nonlinear optics;Particle measurements;Pollution measurement;State estimation;Bayesian framework;Markov model;indoor localization;non-line-of-sight (NLOS);particle filter (PF)}
+}
+
+@Article{wang2003toa,
+  Title                    = {A TOA-based location algorithm reducing the errors due to non-line-of-sight (NLOS) propagation},
+  Author                   = {Wang, Xin and Wang, Zongxin and O Dea, Bob and others},
+  Journal                  = {IEEE Transactions on Vehicular Technology},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {112--116},
+  Volume                   = {52},
+
+  Publisher                = {Citeseer}
+}
+
+@InProceedings{ward1999grid,
+  Title                    = {Grid-based beamformer design for room-environment microphone arrays},
+  Author                   = {Ward, Darren B and Brandstein, Michael S},
+  Booktitle                = {Applications of Signal Processing to Audio and Acoustics, 1999 IEEE Workshop on},
+  Year                     = {1999},
+  Organization             = {IEEE},
+  Pages                    = {23--26}
+}
+
+@Article{ward2003particle,
+  Title                    = {Particle filtering algorithms for tracking an acoustic source in a reverberant environment},
+  Author                   = {Ward, Darren B and Lehmann, Eric A and Williamson, Robert C},
+  Journal                  = {Speech and Audio Processing, IEEE Transactions on},
+  Year                     = {2003},
+  Number                   = {6},
+  Pages                    = {826--836},
+  Volume                   = {11},
+
+  Publisher                = {IEEE}
+}
+
+@Book{web09,
+  Author                   = {Steven Webb},
+
+  Owner                    = {tomonari},
+  Timestamp                = {2014.07.27}
+}
+
+@Article{wei2005new,
+  Title                    = {A new NLOS error mitigation algorithm in location estimation},
+  Author                   = {Wei, Wang and Jin-Yu, Xiong and Zhong-Liang, Zhu},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {2048--2053},
+  Volume                   = {54},
+
+  Publisher                = {IEEE}
+}
+
+@Article{whitehouse2007practical,
+  Title                    = {A practical evaluation of radio signal strength for ranging-based localization},
+  Author                   = {Whitehouse, Kamin and Karlof, Chris and Culler, David},
+  Journal                  = {ACM SIGMOBILE Mobile Computing and Communications Review},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {41--52},
+  Volume                   = {11},
+
+  Publisher                = {ACM}
+}
+
+@Article{wolf2005mobile,
+  Title                    = {Mobile robot simultaneous localization and mapping in dynamic environments},
+  Author                   = {Wolf, Denis F and Sukhatme, Gaurav S},
+  Journal                  = {Autonomous Robots},
+  Year                     = {2005},
+  Number                   = {1},
+  Pages                    = {53--65},
+  Volume                   = {19},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{Li2005,
+  Title                    = {Gaussian mixture-sound field landmark model for robot localization},
+  Author                   = {Li-Wei Wu and Chieh-Cheng Cheng and Wei-Han Liu and Jwu-Sheng Hu},
+  Booktitle                = {Mechatronics and Automation, 2005 IEEE International Conference},
+  Year                     = {2005},
+  Pages                    = {438-443 Vol. 1},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/ICMA.2005.1626587},
+  Keywords                 = {acoustic signal detection;local area networks;mobile robots;2-dimensional indoor environments;Gaussian mixture-sound field landmark model;eRobot;embedded Ethernet technology;quadruped robot system;robot agent;robot localization system;Acoustic noise;Acoustic sensors;Costs;Image sensors;Microphones;Radio navigation;Robot localization;Robot sensing systems;Sensor arrays;Wireless sensor networks}
+}
+
+@Article{wu2007gaussian,
+  Title                    = {Gaussian mixture-sound field landmark model for robot localization applications},
+  Author                   = {Wu, Li-Wei and Liu, Wei-Han and Cheng, Chieh-Cheng and Hu, Jwu-Sheng},
+  Journal                  = {Advanced Robotics},
+  Year                     = {2007},
+  Number                   = {5-6},
+  Pages                    = {619--643},
+  Volume                   = {21},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@InProceedings{wu2008match,
+  Title                    = {Match-filtering based TOA estimation for IR-UWB ranging systems},
+  Author                   = {Wu, Shaohua and Zhang, Qinyu and Fan, Rongfei and Zhang, Naitong},
+  Booktitle                = {Wireless Communications and Mobile Computing Conference, 2008. IWCMC'08. International},
+  Year                     = {2008},
+  Organization             = {IEEE},
+  Pages                    = {1099--1105}
+}
+
+@Article{xu2008delay,
+  Title                    = {Delay-dependent threshold selection for UWB TOA estimation},
+  Author                   = {Xu, Chi and Law, Choi L},
+  Journal                  = {IEEE communications letters},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {380--382},
+  Volume                   = {12}
+}
+
+@Article{yang2005particle,
+  Title                    = {Particle filter for sensor fusion in a land vehicle navigation system},
+  Author                   = {Yang, Ning and Tian, Wei Feng and Jin, Zhi Hua and Zhang, Chuan Bin},
+  Journal                  = {Measurement science and technology},
+  Year                     = {2005},
+  Number                   = {3},
+  Pages                    = {677},
+  Volume                   = {16},
+
+  Publisher                = {IOP Publishing}
+}
+
+@Article{yang2008estimating,
+  Title                    = {Estimating Location Using Wi-Fi.},
+  Author                   = {Yang, Qiang and Pan, Sinno Jialin and Zheng, Vincent Wenchen},
+  Journal                  = {IEEE Intelligent Systems},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {8--13},
+  Volume                   = {23}
+}
+
+@InProceedings{yang2005see,
+  Title                    = {See-through-wall imaging using ultra wideband short-pulse radar system},
+  Author                   = {Yang, Yunqiang and Fathy, Aly E},
+  Booktitle                = {Antennas and Propagation Society International Symposium, 2005 IEEE},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {334--337},
+  Volume                   = {3}
+}
+
+@InProceedings{yin2005adaptive,
+  Title                    = {Adaptive temporal radio maps for indoor location estimation},
+  Author                   = {Yin, Jie and Yang, Qiang and Ni, Lionel},
+  Booktitle                = {Pervasive Computing and Communications, 2005. PerCom 2005. Third IEEE International Conference on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {85--94}
+}
+
+@Article{you2008impact,
+  Title                    = {Impact of sensor-enhanced mobility prediction on the design of energy-efficient localization},
+  Author                   = {You, Chuang-Wen and Huang, Polly and Chu, Hao-hua and Chen, Yi-Chao and Chiang, Ji-Rung and Lau, Seng-Yong},
+  Journal                  = {Ad Hoc Networks},
+  Year                     = {2008},
+  Number                   = {8},
+  Pages                    = {1221--1237},
+  Volume                   = {6},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{yu2008improved,
+  Title                    = {Improved positioning algorithms for nonline-of-sight environments},
+  Author                   = {Yu, Kegen and Guo, Y Jay},
+  Journal                  = {Vehicular Technology, IEEE Transactions on},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {2342--2353},
+  Volume                   = {57},
+
+  Publisher                = {IEEE}
+}
+
+@Article{zakarauskas1993computational,
+  Title                    = {A computational theory of spectral cue localization},
+  Author                   = {Zakarauskas, Pierre and Cynader, Max S},
+  Journal                  = {The Journal of the Acoustical Society of America},
+  Year                     = {1993},
+  Number                   = {3},
+  Pages                    = {1323--1331},
+  Volume                   = {94},
+
+  Publisher                = {Acoustical Society of America}
+}
+
+@InProceedings{Zhang2010,
+  Title                    = {Cocktail: an rf-based hybrid approach for indoor localization},
+  Author                   = {Zhang, Dian and Yang, Yanyan and Cheng, Dachao and Liu, Siyuan and Ni, Lionel M},
+  Booktitle                = {Communications (ICC), 2010 IEEE International Conference on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {1--5},
+
+  Owner                    = {k}
+}
+
+@Conference{,
+  Owner                    = {Tomonari},
+  Timestamp                = {2015.01.14}
+}
+
