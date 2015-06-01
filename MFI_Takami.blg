@@ -4,14 +4,7 @@ Database file #1: References/cite_cur.bib
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty year in griffin1941sensory
-Warning--empty booktitle in takanishi1993
-Warning--empty journal in Bertinato2008
-Warning--empty journal in foy1976position
-Warning--empty journal in schmidt1972new
-Warning--empty journal in gill1981practical
-Warning--empty journal in smith1987closed
-Warning--empty journal in lim2005zero
+Warning--empty journal in argentieri2014survey
 
 Done.
-(There were 8 warnings)
+(There was 1 warning)
