@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  27 MAY 2015 19:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  12 JUN 2015 14:17
 entering extended mode
 **MFI_Takami.tex
 (H:\github\2015_MFI\MFI_Takami.tex
@@ -275,6 +275,18 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -324,9 +336,19 @@ Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 ("H:\Program Files\MiKTeX 2.9\tex/generic\ifxetex\ifxetex.sty"
+Overfull \hbox (1173.93402pt too wide) in paragraph at lines 19--10
+[]\OT1/ptm/m/n/10 <<<<<<< HEAD                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                    
+ []
+
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("H:\Program Files\MiKTeX 2.9\tex/latex\oberdiek\auxhook.sty"
+) ("H:\Program Files\MiKTeX 2.9\tex/latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 ("H:\Program Files\MiKTeX 2.9\tex/latex\oberdiek\kvoptions.sty"
@@ -398,6 +420,41 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 =
+      ======
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 >
+      >>>>>> 596deb23647612c384853850a20c40bd263177be
+The package hyperref has already been loaded with options:
+  [backref=true,breaklinks=true,hidelinks,colorlinks=true,bookmarks=false,citec
+olor=green]
+There has now been an attempt to load it with options
+  [backref=true,breaklinks=true,hidelinks,colorlinks=false,bookmarks=false,cite
+color=green]
+Adding the global options:
+  backref=true,breaklinks=true,hidelinks,colorlinks=true,bookmarks=false,citeco
+lor=green,backref=true,breaklinks=true,hidelinks,colorlinks=false,bookmarks=fal
+se,citecolor=green
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossaries.
 sty
 Package: glossaries 2014/11/22 v4.12 (NLCT)
@@ -417,8 +474,16 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 y
 Package: mfirstuc 2014/07/30 v1.09 (NLCT)
  (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+Overfull \hbox (38.9403pt too wide) in paragraph at lines 21--2
+[]\OT1/ptm/m/n/10 =======  >>>>>>> 596deb23647612c384853850a20c40bd263177be
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--2
+
+ []
+
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 ("H:\Program Files\MiKTeX 2.9\tex/latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count120
@@ -622,28 +687,141 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: subfigure package is loaded.
 Package caption Info: supertabular package is loaded.
 )
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.27 \include{defs}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.27 \include{defs}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.27 \include{defs}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+\providecommand\@newglossary[4]{}
+\@newglossary{main}{glg}{gls}{glo}
+\@newglossary{acronym}{alg}{acr}{acn}
+
+]
 \@input{defs.aux}
-(H:\github\2015_MFI\defs.tex) (H:\github\2015_MFI\acronym.tex)
+(H:\github\2015_MFI\defs.tex)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Runaway argument?
+{Kuya Takami$^{1}$*, Tomonari Furukawa$^{1}$ and Makoto Kumon$^{2}$==\ETC.
+! Paragraph ended before \author was complete.
+<to be read again> 
+                   \par 
+l.44 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
 (H:\github\2015_MFI\MFI_Takami.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `tab:experimental_parameter' multiply defined.
+
 
 LaTeX Warning: Label `fig:data_fusion' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+[]\OT1/ptm/m/n/10 <<<<<<< HEAD  ======= >>>>>>>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 596deb23647612c384853850a20c40bd263177be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 <<<<<<< HEAD =======  >>>>>>>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 596deb23647612c384853850a20c40bd263177be
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 <<<<<<< HEAD =======           >>>>>>>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 596deb23647612c384853850a20c40bd263177be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--13
+\OT1/ptm/m/n/10 <<<<<<< HEAD        =======  >>>>>>>
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count150
 \scratchdimen=\dimen151
@@ -658,7 +836,7 @@ LaTeX Font Info:    ... okay on input line 37.
 \everyMPtoPDFconversion=\toks37
 )
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 45.
  ("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -667,129 +845,1104 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
 
-("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
-
-("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 39.
-
-("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 39.
-
-("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\omspcr.fd"
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[][][]$[]$\OT1/ptm/m/n/8 Makoto Ku-mon is with De-part-ment of Me-chan-i-cal Sy
-s-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\OT1/ptm/m/n/8 tem En-gi-neer-ing, Ku-mamoto Uni-ver-sity, Ku-mamoto, Japan
- []
-
-[1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
+[2
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+LaTeX Warning: No \author given.
+
+
+LaTeX Warning: No \author given.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...zes a mobile target outside the \gls{fov},
+                                                   or the \gls{nfov} of an o...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ... outside the \gls{fov}, or the \gls{nfov} 
+                                                  of an optical sensor, base...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...flection and diffraction signal \gls{toa} 
+                                                  and frequency dependent pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...nd source. The location of the \gls{nfov} 
+                                                  target is finally estimate...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...zes a mobile target outside the \gls{fov},
+                                                   or the \gls{nfov} of an o...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ... outside the \gls{fov}, or the \gls{nfov} 
+                                                  of an optical sensor, base...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...flection and diffraction signal \gls{toa} 
+                                                  and frequency dependent pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...nd source. The location of the \gls{nfov} 
+                                                  target is finally estimate...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...is because optical sensors' \acrfull{fov} 
+                                                  is determined by the \gls{...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...is because optical sensors' \acrfull{fov} 
+                                                  is determined by the \gls{...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `los' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...rfull{fov} is determined by the \gls{los} 
+                                                  and range of the optical s...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...target person who is not in the \gls{fov} 
+                                                  by communicating with the ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 Recent work for \acrfull{nfov} 
+                                    mobile target estimation has been tackle...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 Recent work for \acrfull{nfov} 
+                                    mobile target estimation has been tackle...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ... approach deploys target mounted \gls{rf} 
+                                                  transmitters and fixed rec...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...nvironment.  In one arrangement, \gls{rf} 
+                                                  receivers form a \gls{wsn}...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `wsn' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...ment, \gls{rf} receivers form a \gls{wsn},
+                                                   and numerical techniques ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...hniques are used to localize a \gls{nfov} 
+                                                  target by processing infor...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...critical problem inherent in the \gls{rf} 
+                                                  based approach is its appl...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...its applicability only to near-\gls{nfov} 
+                                                  target estimation~\cite{pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ..., it is possible to localize a \gls{nfov} 
+                                                  target unlike the \gls{rf}...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...e a \gls{nfov} target unlike the \gls{rf} 
+                                                  based approach provided th...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...ommon approach utilizes the \acrfull{toa}/
+                                                  \gls{tdoa} information of ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...ommon approach utilizes the \acrfull{toa}/
+                                                  \gls{tdoa} information of ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...ach utilizes the \acrfull{toa}/\gls{tdoa} 
+                                                  information of acoustic si...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...ry} effectively used reflected \gls{nfov} 
+                                                  sound source signal to ass...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...s robot navigation.  The former \gls{toa}/
+                                                  \gls{tdoa} based acoustic ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...igation.  The former \gls{toa}/\gls{tdoa} 
+                                                  based acoustic techniques,...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...owever, have not achieved true \gls{nfov} 
+                                                  target estimation, and lat...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 The final approach enhances \gls{nfov} 
+                                            target estimation by including a...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...cluding a sensor with a limited \gls{fov},
+                                                   such as an optical sensor...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...Mauler~\cite{mau03} stated the \gls{nfov} 
+                                                  estimation problem mathema...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rbe' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...s dynamically maintained by the \gls{rbe}.
+                                                    The technique, however, ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...e target re-entered the optical \gls{fov} 
+                                                  since the acoustic sensing...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `ild' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...omplex indoor environment using \gls{ild} 
+                                                  {\it a priori} fixed micro...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...coustic approach to estimate a \gls{nfov} 
+                                                  mobile target using sound ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...flection and diffraction signal \gls{toa} 
+                                                  and frequency dependent pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...stimation. The location of the \gls{nfov} 
+                                                  target is finally estimate...
+
+You need to define a glossary entry before you can use it.
+
+[3
+
+]
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 Recent work for \acrfull{nfov} 
+                                    mobile target estimation has been tackle...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 Recent work for \acrfull{nfov} 
+                                    mobile target estimation has been tackle...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ... approach deploys target mounted \gls{rf} 
+                                                  transmitters and fixed rec...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...nvironment.  In one arrangement, \gls{rf} 
+                                                  receivers form a \gls{wsn}...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `wsn' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...ment, \gls{rf} receivers form a \gls{wsn},
+                                                   and numerical techniques ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...hniques are used to localize a \gls{nfov} 
+                                                  target by processing infor...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...critical problem inherent in the \gls{rf} 
+                                                  based approach is its appl...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...its applicability only to near-\gls{nfov} 
+                                                  target estimation~\cite{pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ..., it is possible to localize a \gls{nfov} 
+                                                  target unlike the \gls{rf}...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rf' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...e a \gls{nfov} target unlike the \gls{rf} 
+                                                  based approach provided th...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...ommon approach utilizes the \acrfull{toa}/
+                                                  \gls{tdoa} information of ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...ommon approach utilizes the \acrfull{toa}/
+                                                  \gls{tdoa} information of ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...ach utilizes the \acrfull{toa}/\gls{tdoa} 
+                                                  information of acoustic si...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...ry} effectively used reflected \gls{nfov} 
+                                                  sound source signal to ass...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...s robot navigation.  The former \gls{toa}/
+                                                  \gls{tdoa} based acoustic ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...igation.  The former \gls{toa}/\gls{tdoa} 
+                                                  based acoustic techniques,...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...owever, have not achieved true \gls{nfov} 
+                                                  target estimation, and lat...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 The final approach enhances \gls{nfov} 
+                                            target estimation by including a...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...cluding a sensor with a limited \gls{fov},
+                                                   such as an optical sensor...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...Mauler~\cite{mau03} stated the \gls{nfov} 
+                                                  estimation problem mathema...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `rbe' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...s dynamically maintained by the \gls{rbe}.
+                                                    The technique, however, ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `fov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...e target re-entered the optical \gls{fov} 
+                                                  since the acoustic sensing...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `ild' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...omplex indoor environment using \gls{ild} 
+                                                  {\it a priori} fixed micro...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...coustic approach to estimate a \gls{nfov} 
+                                                  mobile target using sound ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...flection and diffraction signal \gls{toa} 
+                                                  and frequency dependent pr...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...stimation. The location of the \gls{nfov} 
+                                                  target is finally estimate...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \section{\gls{nfov}}
+                         
+You need to define a glossary entry before you can use it.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+! Package glossaries Error: Glossary entry `rbe' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ... \kappa \in \bm{1,...,k}}$. The \gls{rbe} 
+                                                  represents belief on the t...
+
+You need to define a glossary entry before you can use it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 \OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 q [] \OT1/cmr/m/n/10 = []$ \OT1/ptm/m/n
 /10 and
  []
 
-<Figures/auditory_procedure.png, id=65, 626.8218pt x 549.252pt>
+<Figures/auditory_procedure.png, id=20, 626.8218pt x 549.252pt>
 File: Figures/auditory_procedure.png Graphic file (type png)
 
 <use Figures/auditory_procedure.png>
-Package pdftex.def Info: Figures/auditory_procedure.png used on input line 78.
+Package pdftex.def Info: Figures/auditory_procedure.png used on input line 102.
+
 (pdftex.def)             Requested size: 245.71811pt x 215.30531pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/NFOV_acoustic.png, id=70, 374.8404pt x 408.5664pt>
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...h proposed for constructing a \gls{nfov} 
+                                                  target observation likelih...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...raction point by deriving the \gls{tdoa} 
+                                                  for each pair of microphon...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...t direction directly from the \gls{tdoa} 
+                                                  by mirroring and creating ...
+
+You need to define a glossary entry before you can use it.
+
+[4] <Figures/NFOV_acoustic.png, id=42, 374.8404pt x 408.5664pt>
 File: Figures/NFOV_acoustic.png Graphic file (type png)
 
 <use Figures/NFOV_acoustic.png>
-Package pdftex.def Info: Figures/NFOV_acoustic.png used on input line 93.
+Package pdftex.def Info: Figures/NFOV_acoustic.png used on input line 117.
 (pdftex.def)             Requested size: 172.00192pt x 187.48149pt.
 
-<Figures/sound_extraction.png, id=72, 394.1124pt x 327.1422pt>
+<Figures/sound_extraction.png, id=44, 394.1124pt x 327.1422pt>
 File: Figures/sound_extraction.png Graphic file (type png)
 
 <use Figures/sound_extraction.png>
-Package pdftex.def Info: Figures/sound_extraction.png used on input line 98.
+Package pdftex.def Info: Figures/sound_extraction.png used on input line 122.
 (pdftex.def)             Requested size: 172.00192pt x 142.77492pt.
- [2 <H:/github/2015_MFI/Figures/auditory_procedure.png>] <Figures/diffraction1.
-png, id=102, 289.5618pt x 252.945pt>
+
+
+! Package glossaries Error: Glossary entry `rbe' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ... is to develop a probabilistic \gls{rbe} 
+                                                  based framework, but the p...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...ill present the deterministic \gls{nfov} 
+                                                  target estimation using di...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 ...nd emitted by a target in the \gls{nfov} 
+                                                  in a two-dimensional indoo...
+
+You need to define a glossary entry before you can use it.
+
+<Figures/diffraction1.png, id=48, 289.5618pt x 252.945pt>
 File: Figures/diffraction1.png Graphic file (type png)
 
 <use Figures/diffraction1.png>
-Package pdftex.def Info: Figures/diffraction1.png used on input line 117.
+Package pdftex.def Info: Figures/diffraction1.png used on input line 141.
 (pdftex.def)             Requested size: 196.57523pt x 171.72243pt.
 
-<Figures/diffraction.png, id=103, 255.354pt x 163.3302pt>
+<Figures/diffraction.png, id=49, 255.354pt x 163.3302pt>
 File: Figures/diffraction.png Graphic file (type png)
 
 <use Figures/diffraction.png>
-Package pdftex.def Info: Figures/diffraction.png used on input line 122.
+Package pdftex.def Info: Figures/diffraction.png used on input line 146.
 (pdftex.def)             Requested size: 196.57523pt x 125.73721pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <H:/github/2015_MFI/Figures/NFOV_acoustic.png> <H:/github/2015_MFI/Figures/
-sound_extraction.png> <H:/github/2015_MFI/Figures/diffraction1.png> <H:/github/
-2015_MFI/Figures/diffraction.png>]
-<Figures/reflection.png, id=130, 423.984pt x 302.5704pt>
+ [5 <H:/github/2015_MFI/Figures/auditory_procedure.png> <H:/github/2015_MFI/Fig
+ures/NFOV_acoustic.png> <H:/github/2015_MFI/Figures/sound_extraction.png>]
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...used for the selection is the \gls{tdoa},
+                                                   $\Delta t_d = t_{d2} - t_...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `toa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...t_{d1}$ and $t_{d2}$ are the \glspl{toa} 
+                                                  at Microphones 1 and 2 res...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `los' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...ss with a microphone closer to \gls{los} 
+                                                  (Microphone 2 in this case...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `los' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... loss with a microphone on the \gls{los} 
+                                                  to the sound target.  This...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nlos' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...nd drops when the ``degree of \gls{nlos}'
+                                                  ' represented by the orien...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nlos' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...sociate it with the degree of \gls{nlos}.
+                                                    The work of Medwin also ...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `nlos' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...proportional to the degree of \gls{nlos}.
+                                                    The sound direction from...
+
+You need to define a glossary entry before you can use it.
+
+
+! Package glossaries Error: Glossary entry `tdoa' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...^t, \hat y^2}$.  The measured \gls{tdoa} 
+                                                  can be associated with the...
+
+You need to define a glossary entry before you can use it.
+
+<Figures/reflection.png, id=64, 423.984pt x 302.5704pt>
 File: Figures/reflection.png Graphic file (type png)
 
 <use Figures/reflection.png>
-Package pdftex.def Info: Figures/reflection.png used on input line 145.
+Package pdftex.def Info: Figures/reflection.png used on input line 169.
 (pdftex.def)             Requested size: 172.00192pt x 122.7481pt.
 
-Underfull \hbox (badness 10000) detected at line 158
+Underfull \hbox (badness 10000) detected at line 182
  []$[]   []$ [][][]  
  []
 
-<Figures/data_fusion.png, id=131, 374.8404pt x 408.5664pt>
+[6 <H:/github/2015_MFI/Figures/diffraction1.png> <H:/github/2015_MFI/Figures/di
+ffraction.png> <H:/github/2015_MFI/Figures/reflection.png>]
+<Figures/data_fusion.png, id=83, 374.8404pt x 408.5664pt>
 File: Figures/data_fusion.png Graphic file (type png)
 
 <use Figures/data_fusion.png>
-Package pdftex.def Info: Figures/data_fusion.png used on input line 178.
+Package pdftex.def Info: Figures/data_fusion.png used on input line 202.
 (pdftex.def)             Requested size: 172.00192pt x 187.48149pt.
- [4 <H:/github/2015_MFI/Figures/reflection.png> <H:/github/2015_MFI/Figures/dat
-a_fusion.png>]
-<Figures/estimation.png, id=151, 421.575pt x 316.18124pt>
+
+<Figures/estimation.png, id=88, 421.575pt x 316.18124pt>
 File: Figures/estimation.png Graphic file (type png)
 
 <use Figures/estimation.png>
-Package pdftex.def Info: Figures/estimation.png used on input line 243.
+Package pdftex.def Info: Figures/estimation.png used on input line 267.
 (pdftex.def)             Requested size: 245.71811pt x 184.29225pt.
- (H:\github\2015_MFI\MFI_Takami.bbl)
+
+<Figures/sensor_param.png, id=89, 421.575pt x 316.18124pt>
+File: Figures/sensor_param.png Graphic file (type png)
+
+<use Figures/sensor_param.png>
+Package pdftex.def Info: Figures/sensor_param.png used on input line 275.
+(pdftex.def)             Requested size: 172.00192pt x 129.00313pt.
+
+<Figures/experiment.jpg, id=91, 2457.18pt x 2457.18pt>
+File: Figures/experiment.jpg Graphic file (type jpg)
+
+<use Figures/experiment.jpg>
+Package pdftex.def Info: Figures/experiment.jpg used on input line 317.
+(pdftex.def)             Requested size: 172.00192pt x 171.98268pt.
+
+
+! Package glossaries Error: Glossary entry `nfov' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 ... a new acoustic approach in a \gls{nfov} 
+                                                  using sound wave physical ...
+
+You need to define a glossary entry before you can use it.
+
+[7 <H:/github/2015_MFI/Figures/data_fusion.png> <H:/github/2015_MFI/Figures/est
+imation.png (PNG copy)>] (H:\github\2015_MFI\MFI_Takami.bbl [8 <H:/github/2015_
+MFI/Figures/sensor_param.png (PNG copy)> <H:/github/2015_MFI/Figures/experiment
+.jpg>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -801,78 +1954,46 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-[5 <H:/github/2015_MFI/Figures/estimation.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
-
-(H:\github\2015_MFI\MFI_Takami.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+ (H:\github\2015_MFI\MFI_Takami.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 345.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 13681 strings out of 493921
- 202783 string characters out of 3147285
- 357589 words of memory out of 3000000
- 16676 multiletter control sequences out of 15000+200000
- 45925 words of font info for 106 fonts, out of 3000000 for 9000
+ 12509 strings out of 493921
+ 186108 string characters out of 3147285
+ 347818 words of memory out of 3000000
+ 15514 multiletter control sequences out of 15000+200000
+ 42372 words of font info for 95 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 53i,17n,92p,1794b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:nlos} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:ild} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:rbe} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:tdoa} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:wsn} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:rf} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{glo:los} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:toa} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:nfov} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:fov} has been referenced but does not exist, re
-placed by a fixed one
-
-{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<H:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><H:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy9.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-<H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><H:/Program Files
-/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><H:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmr8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on MFI_Takami.pdf (5 pages, 538039 bytes).
+ 53i,17n,92p,1794b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<H:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><H:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
+<H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><H:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><H:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on MFI_Takami.pdf (9 pages, 1902900 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
