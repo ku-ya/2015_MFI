@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.24)  3 JUL 2015 16:11
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.7.9)  9 JUL 2015 16:13
 entering extended mode
 **MFI_Takami.tex
 (H:\github\2015_MFI\MFI_Takami.tex
@@ -21,69 +21,149 @@ LaTeX Warning: You have requested document class `ieeeconf',
 Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
-\@IEEEtrantmpcountA=\count79
-\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+Requested font "ptmr7t" at 10.0pt
+ -> ptmr7t
 \@IEEEnormalsizefontbaselineskip=\skip41
 
 -- This is a 10 point document.
 \normalsizebaselineskip=\skip42
 \normaljot=\skip43
+Requested font "ptmr7t" at 5.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 5.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 5.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 5.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 7.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 7.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 7.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 7.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 8.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 8.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 8.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 8.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 9.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 9.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 9.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 9.0pt
+ -> ptmbi7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 10.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 10.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 10.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 11.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 11.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 11.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 11.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 12.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 12.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 12.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 12.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 16.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 16.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 16.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 16.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 20.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 20.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 20.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 20.0pt
+ -> ptmbi7t
+Requested font "ptmr7t" at 24.0pt
+ -> ptmr7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+Requested font "ptmb7t" at 24.0pt
+ -> ptmb7t
+Requested font "ptmri7t" at 24.0pt
+ -> ptmri7t
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
 
+Requested font "ptmbi7t" at 24.0pt
+ -> ptmbi7t
 \IEEEilabelindentA=\dimen104
 \IEEEilabelindentB=\dimen105
 \IEEEilabelindent=\dimen106
@@ -93,19 +173,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen110
 \IEEEiedmathlabelsep=\dimen111
 \IEEEiedtopsep=\skip44
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@IEEEsubequation=\count85
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
 \abovecaptionskip=\skip45
 \belowcaptionskip=\skip46
-\c@figure=\count86
-\c@table=\count87
-\@IEEEeqnnumcols=\count88
-\@IEEEeqncolcnt=\count89
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
 \@IEEEtmpitemindent=\dimen112
-\c@biography=\count90
+\c@biography=\count91
 \@IEEEtranrubishbin=\box26
 )
 ** ATTENTION: Overriding command lockouts (line 6).
@@ -126,18 +206,11 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("H:\Program Files\MiKTeX 2.9\tex/latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: xetex.def on input line 91.
 
-("H:\Program Files\MiKTeX 2.9\tex/latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count91
+(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\xelatex\xetex-def\xetex.def
+File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
@@ -270,7 +343,7 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
@@ -288,7 +361,6 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 )
 \rownum=\count111
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -313,15 +385,15 @@ Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 ("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -332,9 +404,10 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -388,12 +461,14 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks OFF on input line 4694.
 \c@Hy@tempcnt=\count115
-("H:\Program Files\MiKTeX 2.9\tex/latex\ltxmisc\url.sty"
+("H:\Program Files\MiKTeX 2.9\tex/xelatex\xetexurl\url.sty"
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen133
+Requested font "pzdr" at 0.00002pt
+ -> pzdr
 \Fld@menulength=\count116
 \Field@Width=\dimen134
 \Fld@charsize=\dimen135
@@ -411,17 +486,32 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Hfootnote=\count119
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (autodetected): hxetex.
 
-("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count120
-\c@bookmark@seq@number=\count121
+("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\hxetex.def"
+File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\puenc.def"
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\stringenc.sty"
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box35
+\c@Hy@AnnotLevel=\count120
+\HyField@AnnotCount=\count121
+\Fld@listcount=\count122
+\c@bookmark@seq@number=\count123
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
 )
 \Hy@SectionHShift=\skip62
 )
@@ -437,7 +527,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 ("H:\Program Files\MiKTeX 2.9\tex/generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
-\XKV@depth=\count122
+\XKV@depth=\count124
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\mfirstuc.st
@@ -456,7 +546,7 @@ Package: datatool-base 2014/06/10 v2.22 (NLCT)
 
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count123
+\c@su@anzahl=\count125
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.sty
 Package: datatool-fp 2013/08/29 v2.17 (NLCT)
@@ -467,19 +557,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count124
+\actioncount=\count126
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count125
-\FP@xia=\count126
-\FP@xib=\count127
-\FP@xfa=\count128
-\FP@xfb=\count129
-\FP@rega=\count130
-\FP@regb=\count131
-\FP@regs=\count132
-\FP@times=\count133
+\FP@xs=\count127
+\FP@xia=\count128
+\FP@xib=\count129
+\FP@xfa=\count130
+\FP@xfb=\count131
+\FP@rega=\count132
+\FP@regb=\count133
+\FP@regs=\count134
+\FP@times=\count135
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -498,7 +588,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count134
+\FPseed=\count136
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -510,20 +600,20 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks29
-\@dtl@tmpcount=\count135
+\@dtl@tmpcount=\count137
 \dtl@tmplength=\skip63
-\dtl@sortresult=\count136
-\@dtl@numgrpsepcount=\count137
-\@dtl@datatype=\count138
-\dtl@codeA=\count139
-\dtl@codeB=\count140
-\@dtl@foreach@level=\count141
+\dtl@sortresult=\count138
+\@dtl@numgrpsepcount=\count139
+\@dtl@datatype=\count140
+\dtl@codeA=\count141
+\dtl@codeB=\count142
+\@dtl@foreach@level=\count143
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossaries-
 compatible-307.sty
 Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
 )
-\gls@level=\count142
+\gls@level=\count144
 \@gls@tmpb=\toks30
 \gls@tmplen=\skip64
 \glskeylisttok=\toks31
@@ -549,16 +639,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count143
+\LTchunksize=\count145
 \LTcapwidth=\dimen136
-\LT@head=\box35
-\LT@firsthead=\box36
-\LT@foot=\box37
-\LT@lastfoot=\box38
-\LT@cols=\count144
-\LT@rows=\count145
-\c@LT@tables=\count146
-\c@LT@chunks=\count147
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
 \LT@p@ftn=\toks35
 )
 \glsdescwidth=\skip70
@@ -571,7 +661,7 @@ Package: glossary-super 2013/11/14 v4.0 (NLCT)
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular.s
 ty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count148
+\c@tracingst=\count150
 \ST@wd=\dimen137
 \ST@rightskip=\skip72
 \ST@leftskip=\skip73
@@ -586,7 +676,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen145
 \ST@toadd=\dimen146
 \ST@dimen=\dimen147
-\ST@pbox=\box39
+\ST@pbox=\box40
 ))
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossary-
 tree.sty
@@ -594,11 +684,11 @@ Package: glossary-tree 2014/08/27 v4.10 (NLCT)
 \glstreeindent=\skip75
 )) ("H:\Program Files\MiKTeX 2.9\tex/latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count149
+\c@float@type=\count151
 \float@exts=\toks36
-\float@box=\box40
+\float@box=\box41
 \@float@everytoks=\toks37
-\@floatcapt=\box41
+\@floatcapt=\box42
 )
 (C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -629,7 +719,7 @@ mpboxa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent
  \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize
  \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempbo
 xa \hfil }\fi \fi \fi .
-\c@ContinuedFloat=\count150
+\c@ContinuedFloat=\count152
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -642,181 +732,213 @@ Package caption Info: supertabular package is loaded.
 \@input{defs.aux}
 (H:\github\2015_MFI\defs.tex) (H:\github\2015_MFI\acronym.tex)
 (H:\github\2015_MFI\MFI_Takami.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-
-(C:\Users\Kuya\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen155
-\scratchbox=\box42
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen156
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
-\everyMPtoPDFconversion=\toks39
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 38.
- ("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\nameref.sty"
+Package hyperref Info: Link coloring OFF on input line 44.
+
+("H:\Program Files\MiKTeX 2.9\tex/latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 40.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 46.
+Requested font "cmr10" at 10.95pt
+ -> cmr10
+Requested font "cmr8" at 8.0pt
+ -> cmr8
+Requested font "cmmi10" at 10.95pt
+ -> cmmi10
+Requested font "cmmi8" at 8.0pt
+ -> cmmi8
+Requested font "cmsy10" at 10.95pt
+ -> cmsy10
+Requested font "cmsy8" at 8.0pt
+ -> cmsy8
+Requested font "cmex10" at 11.0pt
+ -> cmex10
+Requested font "cmex8" at 7.69997pt
+ -> cmex8
+Requested font "cmex7" at 5.5pt
+ -> cmex7
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+Requested font "msam10" at 11.0pt
+ -> msam10
+Requested font "msam7" at 7.69997pt
+ -> msam7
+Requested font "msam5" at 5.5pt
+ -> msam5
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
+Requested font "msbm10" at 11.0pt
+ -> msbm10
+Requested font "msbm7" at 7.69997pt
+ -> msbm7
+Requested font "msbm5" at 5.5pt
+ -> msbm5
+Requested font "cmr6" at 6.0pt
+ -> cmr6
+Requested font "cmmi6" at 6.0pt
+ -> cmmi6
+Requested font "cmsy6" at 6.0pt
+ -> cmsy6
+Requested font "cmex8" at 8.0pt
+ -> cmex8
+Requested font "cmex7" at 6.0pt
+ -> cmex7
+Requested font "cmex7" at 5.0pt
+ -> cmex7
+Requested font "msam10" at 8.0pt
+ -> msam10
+Requested font "msam7" at 6.0pt
+ -> msam7
+Requested font "msam5" at 5.0pt
+ -> msam5
+Requested font "msbm10" at 8.0pt
+ -> msbm10
+Requested font "msbm7" at 6.0pt
+ -> msbm7
+Requested font "msbm5" at 5.0pt
+ -> msbm5
+Requested font "ptmr7t" at 6.0pt
+ -> ptmr7t
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 46.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 40.
+Requested font "pcrr7t" at 8.0pt
+ -> pcrr7t
+Requested font "pcrr7t" at 9.0pt
+ -> pcrr7t
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 46.
 
 ("H:\Program Files\MiKTeX 2.9\tex/latex\psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+Requested font "cmsy9" at 9.0pt
+ -> cmsy9
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[][][]$[]$\OT1/ptm/m/n/8 Makoto Ku-mon is with De-part-ment of Me-chan-i-cal Sy
-s-
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[][][]$[]$\OT1/ptm/m/n/8 AP Pho-ton-ics Lim-ited,Science Park, Hong Kong
  []
 
+Requested font "ptmrc7t" at 10.0pt
+ -> ptmrc7t
+("H:\Program Files\MiKTeX 2.9\tex/generic\oberdiek\se-ascii-print.def"
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\OT1/ptm/m/n/8 tem En-gi-neer-ing, Ku-mamoto Uni-ver-sity, Ku-mamoto, Japan
- []
-
-[1{C:/Users/Kuya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
+[1
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Requested font "cmex7" at 7.0pt
+ -> cmex7
+Requested font "msam10" at 10.0pt
+ -> msam10
+Requested font "msam7" at 7.0pt
+ -> msam7
+Requested font "msbm10" at 10.0pt
+ -> msbm10
+Requested font "msbm7" at 7.0pt
+ -> msbm7
+Requested font "cmbx10" at 10.0pt
+ -> cmbx10
+Requested font "cmbx7" at 7.0pt
+ -> cmbx7
+Requested font "cmbx5" at 5.0pt
+ -> cmbx5
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 \OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 q [] \OT1/cmr/m/n/10 = []$ \OT1/ptm/m/n
 /10 and
  []
 
-<Figures/auditory_procedure.png, id=65, 626.8218pt x 549.252pt>
-File: Figures/auditory_procedure.png Graphic file (type png)
-
-<use Figures/auditory_procedure.png>
-Package pdftex.def Info: Figures/auditory_procedure.png used on input line 79.
-(pdftex.def)             Requested size: 245.71811pt x 215.30531pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+File: Figures/auditory_procedure.png Graphic file (type QTm)
+<use  "Figures/auditory_procedure.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/NFOV_acoustic.png, id=70, 374.8404pt x 408.5664pt>
-File: Figures/NFOV_acoustic.png Graphic file (type png)
-
-<use Figures/NFOV_acoustic.png>
-Package pdftex.def Info: Figures/NFOV_acoustic.png used on input line 94.
-(pdftex.def)             Requested size: 172.00192pt x 187.48149pt.
-
-<Figures/sound_extraction.png, id=72, 394.1124pt x 327.1422pt>
-File: Figures/sound_extraction.png Graphic file (type png)
-
-<use Figures/sound_extraction.png>
-Package pdftex.def Info: Figures/sound_extraction.png used on input line 99.
-(pdftex.def)             Requested size: 172.00192pt x 142.77492pt.
- [2 <H:/github/2015_MFI/Figures/auditory_procedure.png>] <Figures/diffraction1.
-png, id=100, 289.5618pt x 252.945pt>
-File: Figures/diffraction1.png Graphic file (type png)
-
-<use Figures/diffraction1.png>
-Package pdftex.def Info: Figures/diffraction1.png used on input line 118.
-(pdftex.def)             Requested size: 196.57523pt x 171.72243pt.
-
-<Figures/diffraction.png, id=101, 255.354pt x 163.3302pt>
-File: Figures/diffraction.png Graphic file (type png)
-
-<use Figures/diffraction.png>
-Package pdftex.def Info: Figures/diffraction.png used on input line 123.
-(pdftex.def)             Requested size: 196.57523pt x 125.73721pt.
- [3 <H:/github/2015_MFI/Figures/NFOV_acoustic.png> <H:/github/2015_MFI/Figures/
-sound_extraction.png> <H:/github/2015_MFI/Figures/diffraction1.png> <H:/github/
-2015_MFI/Figures/diffraction.png>]
-<Figures/reflection.png, id=130, 423.984pt x 302.5704pt>
-File: Figures/reflection.png Graphic file (type png)
-
-<use Figures/reflection.png>
-Package pdftex.def Info: Figures/reflection.png used on input line 146.
-(pdftex.def)             Requested size: 172.00192pt x 122.7481pt.
-
-Underfull \hbox (badness 10000) detected at line 159
+File: Figures/NFOV_acoustic.png Graphic file (type QTm)
+<use  "Figures/NFOV_acoustic.png" >
+File: Figures/sound_extraction.png Graphic file (type QTm)
+ <use  "Figures/sound_extraction.png" >
+[2]
+File: Figures/diffraction1.png Graphic file (type QTm)
+ <use  "Figures/diffraction1.png" >
+File: Figures/diffraction.png Graphic file (type QTm)
+ <use  "Figures/diffraction.png" >
+[3]
+File: Figures/reflection.png Graphic file (type QTm)
+ <use  "Figures/reflection.png" >
+Underfull \hbox (badness 10000) detected at line 165
  []$[]   []$ [][][]  
  []
 
-<Figures/data_fusion.png, id=131, 374.8404pt x 408.5664pt>
-File: Figures/data_fusion.png Graphic file (type png)
+File: Figures/data_fusion.png Graphic file (type QTm)
+<use  "Figures/data_fusion.png" > [4]
+Requested font "cmbx8" at 8.0pt
+ -> cmbx8
+Requested font "cmbx6" at 6.0pt
+ -> cmbx6
+File: Figures/estimation.png Graphic file (type QTm)
+ <use  "Figures/estimation.png" >
+File: Figures/sensor_param.png Graphic file (type QTm)
 
-<use Figures/data_fusion.png>
-Package pdftex.def Info: Figures/data_fusion.png used on input line 179.
-(pdftex.def)             Requested size: 172.00192pt x 187.48149pt.
- [4 <H:/github/2015_MFI/Figures/reflection.png> <H:/github/2015_MFI/Figures/dat
-a_fusion.png>]
-<Figures/estimation.png, id=153, 421.575pt x 316.18124pt>
-File: Figures/estimation.png Graphic file (type png)
-
-<use Figures/estimation.png>
-Package pdftex.def Info: Figures/estimation.png used on input line 244.
-(pdftex.def)             Requested size: 245.71811pt x 184.29225pt.
-
-<Figures/sensor_param.png, id=154, 421.575pt x 316.18124pt>
-File: Figures/sensor_param.png Graphic file (type png)
-
-<use Figures/sensor_param.png>
-Package pdftex.def Info: Figures/sensor_param.png used on input line 252.
-(pdftex.def)             Requested size: 172.00192pt x 129.00313pt.
-
-<Figures/experiment.jpg, id=156, 2457.18pt x 2457.18pt>
-File: Figures/experiment.jpg Graphic file (type jpg)
-
-<use Figures/experiment.jpg>
-Package pdftex.def Info: Figures/experiment.jpg used on input line 262.
-(pdftex.def)             Requested size: 172.00192pt x 171.98268pt.
- (H:\github\2015_MFI\MFI_Takami.bbl [5 <H:/github/2015_MFI/Figures/estimation.p
-ng (PNG copy)> <H:/github/2015_MFI/Figures/sensor_param.png (PNG copy)> <H:/git
-hub/2015_MFI/Figures/experiment.jpg>])
+<use  "Figures/sensor_param.png" >
+Requested font "cmr9" at 9.0pt
+ -> cmr9
+Requested font "cmmi9" at 9.0pt
+ -> cmmi9
+Requested font "cmex9" at 9.0pt
+ -> cmex9
+Requested font "cmbx9" at 9.0pt
+ -> cmbx9
+Requested font "msam10" at 9.0pt
+ -> msam10
+Requested font "msbm10" at 9.0pt
+ -> msbm10
+File: Figures/experiment.jpg Graphic file (type QTm)
+ <use  "Figures/experiment.jpg" > [5]
+(H:\github\2015_MFI\MFI_Takami.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -828,78 +950,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
 - LAST -
-Extra skip:4.97008pt
-Left:377.84999pt/1.73193pt
-Right:372.87991pt/0.1399pt
-Output:377.84999pt
+Extra skip:35.72005pt
+Left:426.59996pt/1.65195pt
+Right:390.87991pt/0.1399pt
+Output:426.59996pt
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
  (H:\github\2015_MFI\MFI_Takami.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 13772 strings out of 493921
- 204430 string characters out of 3147285
- 373037 words of memory out of 3000000
- 16753 multiletter control sequences out of 15000+200000
- 47523 words of font info for 112 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 53i,17n,92p,1794b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{glo:nlos} has been referenced but does not exist,
- replaced by a fixed one
+ 16722 strings out of 429035
+ 235809 string characters out of 3167910
+ 384307 words of memory out of 3000000
+ 19776 multiletter control sequences out of 15000+200000
+ 37690 words of font info for 103 fonts, out of 3000000 for 9000
+ 912 hyphenation exceptions out of 8191
+ 53i,17n,92p,1793b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-pdfTeX warning (dest): name{glo:ild} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:rbe} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:tdoa} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:wsn} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:rf} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{glo:los} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:toa} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:nfov} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:fov} has been referenced but does not exist, re
-placed by a fixed one
-
-{H:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<H:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><H:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><H:/Progr
-am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><H:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/times/utmbi8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/times/utmr8a.pfb><H:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on MFI_Takami.pdf (6 pages, 1926237 bytes).
-PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Output written on MFI_Takami.pdf (6 pages).
