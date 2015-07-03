@@ -15,12 +15,9 @@
 \usepackage{amssymb}  % assumes amsmath package installed
 \usepackage{subfigure}
 \usepackage{cite}
+\usepackage{flushend}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
-<<<<<<< HEAD
-\usepackage[backref=true,breaklinks=true,hidelinks,colorlinks=true,bookmarks=false,citecolor=green]{hyperref}
-=======
 \usepackage[backref=true,breaklinks=true,hidelinks,colorlinks=false,bookmarks=false,citecolor=green]{hyperref}
->>>>>>> 596deb23647612c384853850a20c40bd263177be
 \usepackage[acronym]{glossaries}
 \usepackage{float}
 \usepackage[small,normal,bf,up]{caption}
@@ -29,11 +26,7 @@
 \title{\LARGE \bf
 Non-Field-Of-View Indoor Sound Source Localization based on Reflection and Diffraction
 }
-<<<<<<< HEAD
-\author{Kuya Takami$^{1}$*, Tomonari Furukawa$^{1}$ and Makoto Kumon$^{2}$% <-this % stops a space
-=======
 \author{Kuya Takami$^{1}$*, Tomonari Furukawa$^{1}$ Makoto Kumon$^{2}$ and Lin Chi Mak$^{3}$% <-this % stops a space
->>>>>>> 596deb23647612c384853850a20c40bd263177be
 \thanks{*Corresponding author}%
 %\thanks{**This work was not supported by any organization}% <-this % stops a space
 \thanks{$^{1}$Kuya Takami, Tomonari Furukawa are with Mechanical Engineering, Virginia Polytechnic Institute and State University, USA
@@ -48,26 +41,11 @@ Non-Field-Of-View Indoor Sound Source Localization based on Reflection and Diffr
 \pagestyle{empty}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-<<<<<<< HEAD
-This paper presents a new approach which acoustically localizes a mobile target outside the \gls{fov}, or the \gls{nfov} of an optical sensor, based on reflection and diffraction signals. In this approach, sound source reflection and diffraction signal \gls{toa} and frequency dependent property construct two distinct observation likelihoods from single sound. The fusion of these likelihoods, a joint acoustic observation likelihood, is derived to estimate the sound source. The location of the \gls{nfov} target is finally estimated within the recursive Bayesian estimation framework.  After the experimental parametric studies, the potential of the proposed approach for practical implementation has been demonstrated by the successful localization.
-=======
 This paper presents a new approach which acoustically localizes a mobile target outside the \gls{fov}, or the \gls{nfov} of an optical sensor, based on reflection and diffraction signals. In this approach, sound source reflection and diffraction signal \gls{toa} and frequency dependent property construct two distinct observation likelihoods from single sound. The fusion of these likelihoods, a joint acoustic observation likelihood, is derived to estimate the sound source. The location of the \gls{nfov} target is finally estimated within the recursive Bayesian estimation framework. The approach was formulated and derived mathematically. Through the parametric studies in simulation, the potential of the proposed approach for practical implementation has been demonstrated by the successful localization. Finally, experimental environment was constructed to further validate the formulation.
->>>>>>> 596deb23647612c384853850a20c40bd263177be
 \end{abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 Target localization and tracking, or mobile target estimation, in indoor environments has been a research challenge over several decades due to the existence of a variety of applications in addition to the significance and the difficulty of each application. It has variety of applications such as home security, home health care and urban search-and-rescue but its usefulness is limited by the complexity of indoor structures~\cite{priyantha2005mobile,Khoury2009,argentieri2014survey}. Indoor structures make estimation problems challenging as they can introduce large unobservable regions when an optical sensor such as a camera is deployed.  This is because optical sensors' \acrfull{fov} is determined by the \gls{los} and range of the optical sensor, which could be small in highly constrained environments. However, if a target person is interactive, humans have capability of searching and finding the target person who is not in the \gls{fov} by communicating with the person and estimating the location. In such a case, target estimation is mostly performed not through vision but audition. 
-<<<<<<< HEAD
-
-Recent work for \acrfull{nfov} mobile target estimation has been tackled in three different ways. The first approach deploys target mounted \gls{rf} transmitters and fixed receivers in the environment.  In one arrangement, \gls{rf} receivers form a \gls{wsn}, and numerical techniques are used to localize a \gls{nfov} target by processing information of received signals such as signal intensity~\cite{Dai2012,Guvenc2009}. An improved arrangement with minimal infrastructure uses ``fingerprints''~\cite{Bahl2000,lad04}. There is a unique fingerprint at each location in a static environment.  A target can thus be localized by feature-matching the fingerprints.  Whilst this arrangement can achieve higher accuracy, the critical problem inherent in the \gls{rf} based approach is its applicability only to near-\gls{nfov} target estimation~\cite{priyantha2005mobile,Seow2008}. 
-
-In the second approach, acoustic sensors are used for target estimation.  Since sound signals are reflected by structures, it is possible to localize a \gls{nfov} target unlike the \gls{rf} based approach provided that the sound signals contain information on the target location. The most common approach utilizes the \acrfull{toa}/\gls{tdoa} information of acoustic signals~\cite{hu2011simultaneous,ward2003particle,Mak2009}. Recently, Narang~{\it et al.}~\cite{narang2014auditory} effectively used reflected \gls{nfov} sound source signal to assists robot navigation.  The former \gls{toa}/\gls{tdoa} based acoustic techniques, however, have not achieved true \gls{nfov} target estimation, and latter approach does not fully utilizes first arrival diffraction signal information. Furthermore, the majority of sound localization challenges have been focused on the direction of sound rather than its position due to complexity of sound wave propagation~\cite{tamai2005three,sva12}.  
-
-The final approach enhances \gls{nfov} target estimation by including a sensor with a limited \gls{fov}, such as an optical sensor, by applying a numerical technique. Mauler~\cite{mau03} stated the \gls{nfov} estimation problem mathematically, and Furukawa,~{\it et al.}~\cite{fur06,fur12} developed a generalized numerical solution.  In this technique, the event of ``no detection'' is converted into an observation likelihood and utilized to positively update probabilistic belief on the target. This belief is dynamically maintained by the \gls{rbe}.  The technique, however, has been found to fail in target estimation unless the target is re-discovered within a short period after being lost.  Kumon, {\it et al.}~\cite{kum13}  incorporated an acoustic sensor to maintain belief with no optical detection more reliably. Nevertheless, the technique performed poorly unless the target re-entered the optical \gls{fov} since the acoustic sensing is only conducted in an assistive capacity. Extending Kumon's approach, Takami, {\it et al.}~\cite{takami2015fsr} focused more towards complex indoor environment using \gls{ild} {\it a priori} fixed microphone array knowledge. However, these approach require prior data collection and can not be applied to the dynamic sensor movements.   
-
-This paper presents a new acoustic approach to estimate a \gls{nfov} mobile target using sound wave physical properties, reflection and diffraction. In the approach, sound source reflection and diffraction signal \gls{toa} and frequency dependent property construct two distinct observation likelihoods from target sound. The fusion of these likelihoods, a joint acoustic observation likelihood, is derived to perform the target estimation. The location of the \gls{nfov} target is finally estimated within the recursive Bayesian estimation framework.
-
-=======
 
 Recent work for \acrfull{nfov} mobile target estimation has been tackled in three different ways. The first approach deploys target mounted \gls{rf} transmitters and fixed receivers in the environment.  In one arrangement, \gls{rf} receivers form a \gls{wsn}, and numerical techniques are used to localize a \gls{nfov} target by processing information of received signals such as signal intensity~\cite{Dai2012,Guvenc2009}. An improved arrangement with minimal infrastructure uses ``fingerprints''~\cite{Bahl2000,lad04}. There is a unique fingerprint at each location in a static environment.  A target can thus be localized by feature-matching the fingerprints.  Whilst this arrangement can achieve higher accuracy, the critical problem inherent in the \gls{rf} based approach is its applicability only to near-\gls{nfov} target estimation~\cite{priyantha2005mobile,Seow2008}. 
 
@@ -77,7 +55,6 @@ The final approach enhances \gls{nfov} target estimation by including a sensor w
 
 This paper presents a new acoustic approach to estimate a \gls{nfov} mobile target using sound wave physical properties, reflection and diffraction. In the approach, sound source reflection and diffraction signal \gls{toa} and frequency dependent property construct two distinct observation likelihoods from target sound. The fusion of these likelihoods, a joint acoustic observation likelihood, is derived to perform the target estimation. The location of the \gls{nfov} target is finally estimated within the recursive Bayesian estimation framework. This process of target estimation was derived mathematically. Following the formulation, the proposed approach was tested through simulation, and parametrically studied under multiple conditions. Finally, experimental validation environment were constructed for the validation.
 
->>>>>>> 596deb23647612c384853850a20c40bd263177be
 \section{\gls{nfov}}
 \subsection{Auditory Recursive Bayesian Estimation}
 The proposed approach is mathematically described as follows. Let the state of the robot $s$ at time step $k$ be $\mVxbp{k}{s} \in \Cal{X}^s$. Consider a target $t$, the state is given by $\Vxbp{k}{t} \in \Cal{X}^t$, and a sequence of observations of the target $t$ by the robot $s$ from time step $1$ to time step $k$ given by $\ptVzbp{s}{1:k}{t} \equiv \bm{\ptVzbp{s}{\kappa}{t}|\forall \kappa \in \bm{1,...,k}}$. The \gls{rbe} represents belief on the target in the form of a probability density function and iteratively updates the belief in time and observation.  Let the belief given a sequence of observations and the robot state at time step ${k-1}$ be  $\p{\Vxbp{k-1}{t}|\ptVzbp{s}{1:k-1}{t},\mVxbp{k-1}{s}}$.  Chapman-Kolmogrov equation updates the prior belief in time, or predicts the belief at time step $k$, by the probabilistic motion model $\p{\Vxbp{k}{t}|\Vxbp{k-1}{t},\mVxbp{k-1}{s}}$: 
@@ -278,38 +255,6 @@ Based on the initial simulation, the parametric study was performed to measure t
 \end{figure}
 
 
-%<<<<<<< HEAD
-%\begin{table}[h]
-%	\centering \caption{Dimensions and other parameters for the experiments}
-%	\label{tab:experimental_parameter}
-%	\begin{tabular}{r|r}
-%		\hline\noalign{\smallskip}
-%		Parameter & Value \\
-% 		\noalign{\smallskip}\hline\noalign{\smallskip}
-% 		$x_s$ &  \\
-% 		$x_t$ &  \\
-% 		$L_w$ & \\
-% 		$[x_d y_d]$ & \\
-% 		 & \\
-% 		 & \\
-%		\noalign{\smallskip}\hline\noalign{\smallskip}
-% 	\end{tabular}
-%\end{table}
-%
-%\begin{figure}[thpb]
-%  \centering
-%%  \framebox{
-%  \includegraphics[width=\columnwidth]{Figures/estimation.png} %}
-%  \caption{Target estimation}
-%  \label{fig:data_fusion}
-%\end{figure}
-%
-%\section{CONCLUSIONS}
-%
-%
-%SLAM - map of the environment and test in the scale of actual indoor environment
-%%\addtolength{\textheight}{-12cm}
-%=======
 Figure~\ref{fig:exp} show the actual experimental testing environment. As shown in the figure, the pink cylinder on top is the omni-directional target sound source, and separator wall and microphone array shown below. The sound insulator were installed at the top and the bottom of the environment to mitigate additional reflection. This experimental results will be included in the final submission of the paper. 
 \begin{figure}[thpb]
 	\centering
@@ -322,8 +267,7 @@ Figure~\ref{fig:exp} show the actual experimental testing environment. As shown 
 \section{CONCLUSIONS}
 This paper demonstrated the target estimation capability of a new acoustic approach in a \gls{nfov} using sound wave physical properties, reflection and diffraction. In the approach, sound source reflection and diffraction signal construct two distinct observation likelihoods from target sound. The joint acoustic observation likelihood can be then used to estimates the target location. This process was formulated mathematically with two dimensional assumption. The proposed approach was tested and parametrically studied under different conditions in simulation. Finally, an experimental environment were constructed for further validation.
 Future work consists of completing the experimental validation. Further, extending the work towards indoor environments where actual mobile target estimation is performed in applications.
-\addtolength{\textheight}{-10cm}
-
+%\addtolength{\textheight}{-10cm}
    % This command serves to balance the column lengths
                                   % on the last page of the document manually. It shortens
                                   % the textheight of the last page by a suitable amount.
@@ -339,7 +283,6 @@ Future work consists of completing the experimental validation. Further, extendi
 %\section*{APPENDIX}
 %Appendixes should appear before the acknowledgment.
 \section*{ACKNOWLEDGMENT}
-Thank you for the all the support Hanxing Liu has provided for construction of the experimental environment.
-
+Hanxing Liu has provided for construction of the experimental environment.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
