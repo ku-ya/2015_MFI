@@ -37,34 +37,6 @@ H.~M. Khoury and V.~R. Kamat, ``Evaluation of position tracking technologies
 S.~Argentieri, P.~Danes, P.~Soueres \emph{et~al.}, ``A survey on sound source
   localization in robotics: from binaural to array processing methods,'' 2014.
 
-\bibitem{Dai2012}
-H.~Dai, Z.-M. Zhu, and X.-F. Gu, ``Multi-target indoor localization and
-  tracking on video monitoring system in a wireless sensor network,''
-  \emph{Journal of Network and Computer Applications}, 2012.
-
-\bibitem{Guvenc2009}
-I.~Guvenc and C.-C. Chong, ``A survey on toa based wireless localization and
-  nlos mitigation techniques,'' \emph{Communications Surveys \& Tutorials,
-  IEEE}, vol.~11, no.~3, pp. 107--124, 2009.
-
-\bibitem{Bahl2000}
-P.~Bahl and V.~N. Padmanabhan, ``Radar: An in-building rf-based user location
-  and tracking system,'' in \emph{INFOCOM 2000. Nineteenth Annual Joint
-  Conference of the IEEE Computer and Communications Societies. Proceedings.
-  IEEE}, vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax Ieee, 2000, pp.
-  775--784.
-
-\bibitem{lad04}
-A.~M. Ladd, K.~E. Bekris, A.~P. Rudys, D.~S. Wallach, and L.~E. Kavraki, ``On
-  the feasibility of using wireless ethernet for indoor localization,''
-  \emph{IEEE Transactions on Robotics and Automation}, vol.~20, no.~3, pp.
-  555--559, 2004.
-
-\bibitem{Seow2008}
-C.~K. Seow and S.~Y. Tan, ``Non-line-of-sight localization in multipath
-  environments,'' \emph{Mobile Computing, IEEE Transactions on}, vol.~7, no.~5,
-  pp. 647--660, 2008.
-
 \bibitem{hu2011simultaneous}
 J.-S. Hu, C.-Y. Chan, C.-K. Wang, M.-T. Lee, and C.-Y. Kuo, ``Simultaneous
   localization of a mobile robot and multiple sound sources using a microphone
@@ -89,18 +61,11 @@ G.~Narang, K.~Nakamura, and K.~Nakadai, ``Auditory-aware navigation for mobile
   Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp.
   4021--4026.
 
-\bibitem{tamai2005three}
-Y.~Tamai, Y.~Sasaki, S.~Kagami, and H.~Mizoguchi, ``Three ring microphone array
-  for 3d sound localization and separation for mobile robot audition,'' in
-  \emph{Intelligent Robots and Systems, 2005.(IROS 2005). 2005 IEEE/RSJ
-  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
-  2005, pp. 4172--4177.
-
-\bibitem{sva12}
-P.~Svaizer, A.~Brutti, and M.~Omologo, ``Environment aware estimation of the
-  orientation of acoustic sources using a line array,'' in \emph{Signal
-  Processing Conference (EUSIPCO), 2012 Proceedings of the 20th
-  European}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2012, pp. 1024--1028.
+\bibitem{even2014audio}
+J.~Even, Y.~Morales, N.~Kallakuri, C.~Ishi, and N.~Hagita, ``Audio ray tracing
+  for position estimation of entities in blind regions,'' in \emph{Intelligent
+  Robots and Systems (IROS 2014), 2014 IEEE/RSJ International Conference
+  on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp. 1920--1925.
 
 \bibitem{mau03}
 R.~Mauler, \emph{Recent Developments in Cooperative Control and
@@ -121,11 +86,10 @@ T.~Furukawa, L.~C. Mak, H.~Durrant-Whyte, and R.~Madhavan, ``Autonomous
   bayesian search and tracking, and its experimental validation,''
   \emph{Advanced Robotics}, vol.~26, no. 5-6, pp. 461--485, 2012.
 
-\bibitem{kum13}
-M.~Kumon, D.~Kimoto, K.~Takami, and T.~Furukawa, ``Bayesian non-field-of-view
-  target estimation incorporating an acoustic sensor,,'' in \emph{Proceedings
-  of 2013 IEEE/RSJ International Conference of Intelligent Robots and Systems},
-  November 1-3, 2013 2013.
+\bibitem{takami2015ar}
+K.~Takami, T.~Furukawa, M.~Kumon, D.~Kimoto, and G.~Dissanayake, ``Estimation
+  of a nonvisible field-of-view mobile target incorporating optical and
+  acoustic sensors,'' \emph{Autonomous Robots}, 2015.
 
 \bibitem{takami2015fsr}
 K.~Takami, T.~Furukawa, M.~Kumon, and G.~Dissanayake, ``Non-field-of-view
